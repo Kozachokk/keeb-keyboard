@@ -1,0 +1,3 @@
+2026-09-01
+checked instructions, started planning keyboard layout and where the screen and microcontroller will go.
+1.5 hours.
