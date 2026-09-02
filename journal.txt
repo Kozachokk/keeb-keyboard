@@ -1,3 +1,8 @@
 2026-09-01
 checked instructions, started planning keyboard layout and where the screen and microcontroller will go.
 1.5 hours.
+
+
+2026-09-02
+Learned how keyboard matrices work and started looking into kicad, kicad is unfortunetaly missing schema design for raspberrypi pico.
+2 hours
