@@ -5317,7 +5317,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_stab")
-		(at 355.6 107.95 0)
+		(at 290.83 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5325,10 +5325,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "06d1db1b-56b3-47d5-a491-d80f2b58e845")
 		(property "Reference" "S2"
-			(at 361.95 106.5529 0)
+			(at 287.274 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5339,7 +5338,7 @@
 			)
 		)
 		(property "Value" "MX_stab"
-			(at 361.95 109.0929 0)
+			(at 290.322 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5349,8 +5348,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_2u"
-			(at 355.6 107.95 0)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 290.83 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5361,7 +5360,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 355.6 107.95 0)
+			(at 290.83 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5372,7 +5371,7 @@
 			)
 		)
 		(property "Description" "Cherry MX-style stabilizer"
-			(at 355.6 107.95 0)
+			(at 290.83 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7655,7 +7654,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1.75u_STP_1.25"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 120.65 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -8569,7 +8568,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_stab")
-		(at 355.6 100.33 0)
+		(at 290.83 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8577,10 +8576,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "37647981-9093-445d-bc61-a32424b3c288")
 		(property "Reference" "S1"
-			(at 361.95 98.9329 0)
+			(at 287.02 81.788 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8591,7 +8589,7 @@
 			)
 		)
 		(property "Value" "MX_stab"
-			(at 361.95 101.4729 0)
+			(at 289.814 82.042 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8601,8 +8599,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_2u"
-			(at 355.6 100.33 0)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 290.83 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8613,7 +8611,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 355.6 100.33 0)
+			(at 290.83 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8624,7 +8622,7 @@
 			)
 		)
 		(property "Description" "Cherry MX-style stabilizer"
-			(at 355.6 100.33 0)
+			(at 290.83 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8779,7 +8777,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1.75u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 25.4 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -9515,7 +9513,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1.5u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 25.4 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -9669,7 +9667,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_stab")
-		(at 355.6 138.43 0)
+		(at 36.83 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9680,7 +9678,7 @@
 		(fields_autoplaced yes)
 		(uuid "41e4548b-c5c4-4a2e-a7c1-ae21cea9d1e1")
 		(property "Reference" "S6"
-			(at 361.95 137.0329 0)
+			(at 43.18 117.9829 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9691,7 +9689,7 @@
 			)
 		)
 		(property "Value" "MX_stab"
-			(at 361.95 139.5729 0)
+			(at 43.18 120.5229 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9701,8 +9699,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_2u"
-			(at 355.6 138.43 0)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 36.83 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9713,7 +9711,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 355.6 138.43 0)
+			(at 36.83 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9724,7 +9722,7 @@
 			)
 		)
 		(property "Description" "Cherry MX-style stabilizer"
-			(at 355.6 138.43 0)
+			(at 36.83 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13373,7 +13371,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_stab")
-		(at 355.6 130.81 0)
+		(at 36.83 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13384,7 +13382,7 @@
 		(fields_autoplaced yes)
 		(uuid "78278140-ecd6-43f0-84f9-340ebdb03db7")
 		(property "Reference" "S5"
-			(at 361.95 129.4129 0)
+			(at 43.18 100.2029 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13395,7 +13393,7 @@
 			)
 		)
 		(property "Value" "MX_stab"
-			(at 361.95 131.9529 0)
+			(at 43.18 102.7429 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13405,8 +13403,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_2u"
-			(at 355.6 130.81 0)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 36.83 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13417,7 +13415,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 355.6 130.81 0)
+			(at 36.83 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13428,7 +13426,7 @@
 			)
 		)
 		(property "Description" "Cherry MX-style stabilizer"
-			(at 355.6 130.81 0)
+			(at 36.83 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13449,7 +13447,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_stab")
-		(at 355.6 115.57 0)
+		(at 290.83 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13457,10 +13455,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7c1e0173-0eae-425e-b1a3-7356b77b52a6")
 		(property "Reference" "S3"
-			(at 361.95 114.1729 0)
+			(at 287.274 116.586 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13471,7 +13468,7 @@
 			)
 		)
 		(property "Value" "MX_stab"
-			(at 361.95 116.7129 0)
+			(at 290.322 116.332 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13481,8 +13478,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_2u"
-			(at 355.6 115.57 0)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 290.83 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13493,7 +13490,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 355.6 115.57 0)
+			(at 290.83 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13504,7 +13501,7 @@
 			)
 		)
 		(property "Description" "Cherry MX-style stabilizer"
-			(at 355.6 115.57 0)
+			(at 290.83 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14163,7 +14160,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1.75u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 269.24 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -15611,7 +15608,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1.25u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 209.55 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -15979,7 +15976,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1.75u_STP_1.5"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 25.4 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -16139,7 +16136,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1.25u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 49.53 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -17117,7 +17114,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_stab")
-		(at 355.6 146.05 0)
+		(at 36.83 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17128,7 +17125,7 @@
 		(fields_autoplaced yes)
 		(uuid "c46c0bf6-8429-4b35-a9ce-af9ff67a747a")
 		(property "Reference" "S7"
-			(at 361.95 144.6529 0)
+			(at 43.18 135.7629 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17139,7 +17136,7 @@
 			)
 		)
 		(property "Value" "MX_stab"
-			(at 361.95 147.1929 0)
+			(at 43.18 138.3029 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17149,8 +17146,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_2u"
-			(at 355.6 146.05 0)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 36.83 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17161,7 +17158,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 355.6 146.05 0)
+			(at 36.83 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17172,7 +17169,7 @@
 			)
 		)
 		(property "Description" "Cherry MX-style stabilizer"
-			(at 355.6 146.05 0)
+			(at 36.83 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18033,7 +18030,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_stab")
-		(at 355.6 123.19 0)
+		(at 140.97 157.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18044,7 +18041,7 @@
 		(fields_autoplaced yes)
 		(uuid "d9103c4c-e104-4a54-9fae-c827cbdaf226")
 		(property "Reference" "S4"
-			(at 361.95 121.7929 0)
+			(at 147.32 156.0829 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18055,7 +18052,7 @@
 			)
 		)
 		(property "Value" "MX_stab"
-			(at 361.95 124.3329 0)
+			(at 147.32 158.6229 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18065,8 +18062,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_2u"
-			(at 355.6 123.19 0)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 140.97 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18077,7 +18074,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 355.6 123.19 0)
+			(at 140.97 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18088,7 +18085,7 @@
 			)
 		)
 		(property "Description" "Cherry MX-style stabilizer"
-			(at 355.6 123.19 0)
+			(at 140.97 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19035,7 +19032,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1.75u_STP_1.5"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 269.24 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -19587,7 +19584,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1.25u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 67.31 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -20035,7 +20032,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1.75u_STP_1.5"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 269.24 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -20219,7 +20216,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1.25u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 25.4 152.4 0)
 			(hide yes)
 			(show_name no)
