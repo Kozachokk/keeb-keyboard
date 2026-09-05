@@ -110,9 +110,9 @@
         "missing_tuning_profile": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
-        "npth_inside_courtyard": "error",
+        "npth_inside_courtyard": "ignore",
         "padstack": "warning",
-        "pth_inside_courtyard": "error",
+        "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
@@ -524,7 +524,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerber/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -661,7 +661,7 @@
         "uuid": "45d2cfe4-3209-4168-9f64-4f4460a1d88d"
       }
     ],
-    "used_designators": "SW_Z1,SW_Y1,SW_X1,SW_F1-11,D1-84,D92,SW_E1,SW_Del1,SW_VMute1,SW_W1,SW_Colon1,SW_CloseBracket1,SW_Apostrophe1,SW_CapsLock1,SW_C1,SW_BackSpace1,SW_G1,SW_L1,SW_N1,SW_Backslash1,SW_B1,SW_ArrowLeft1,SW_dot1,SW_Insert1,A1,SW_Slash1,S1-4,SW_R1,SW_PrintScreen1-2,SW_1-19,SW_Enter1,SW_A1,SW_comma1,SW_Alt1,SW_ArrowDown1,SW_Equals1,SW_H1,SW_ArrowRight1,SW_OpenBracket1,SW_HK1-4,SW_I1,SW_J1,SW_O1,SW_V\\-1,SW_M1,SW_FN1,SW_V1,SW_Minus1,SW1-84,SW_CTRL1,SW_K1,SW_P1,SW_S1,SW_Shift1,SW_ArrowUp1,SW_Space1,SW_Super1,SW_D1,SW_Q1,SW_T1,SW_TILDA1,SW_TAB1,SW_U1,SW_V+1",
+    "used_designators": "SW_T1,SW_Q1,SW_D1,SW_Super1,SW_E1,SW_Del1,SW_CapsLock1,SW_X1,D1-84,D92,SW_F1-11,SW_Slash1,A1,SW_BackSpace1,SW_L1,SW_G1,SW_N1,SW_B1,SW_Backslash1,SW_C1,SW_V+1,S1-4,SW_R1,SW_TAB1,SW_VMute1,SW_Y1,SW_TILDA1,SW_U1,SW_Z1,SW_ArrowLeft1,SW_1-19,SW_PrintScreen1-2,SW_dot1,SW_Insert1,SW_CloseBracket1,SW_Apostrophe1,SW_W1,SW_Colon1,SW_Enter1,SW_A1,SW_comma1,SW_Alt1,SW_ArrowDown1,SW_Equals1,SW_H1,SW_ArrowRight1,SW_OpenBracket1,SW_HK1-4,SW_I1,SW_J1,SW_O1,SW_V\\-1,SW_M1,SW_FN1,SW_V1,SW_Minus1,SW_Shift1,SW_CTRL1,SW_K1,SW1-84,SW_P1,SW_S1,SW_ArrowUp1,SW_Space1",
     "variants": []
   },
   "sheets": [

@@ -20,3 +20,8 @@ Finally done with the schema, some footprints are missing, which footprint do I 
 
 2026-09-04
 Redid the keyboard layout using an online tool, that can also be reused in the pcb editor to automatically place everything, but the order is not respected and everything is jumbled up, work for later.
+3h
+
+2026-09-05
+Fixed yesterday's problem, redid the pcb design multiple times, so that everything is nice and neat and generated gerbers files!!! Didn't find a place to put the raspberrypi so it's going to stick out from the side. Maybe i'll keep this design, maybe I will make a new one we'll see.
+4h
