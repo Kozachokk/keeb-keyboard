@@ -17,3 +17,6 @@ Worked on a better keyboard layout sketch, each button having a label. Did a rou
 
 2026-09-03
 Finally done with the schema, some footprints are missing, which footprint do I use for the space button? It certainly isn't 1u, i'll try to work on that tomorrow.
+
+2026-09-04
+Redid the keyboard layout using an online tool, that can also be reused in the pcb editor to automatically place everything, but the order is not respected and everything is jumbled up, work for later.
