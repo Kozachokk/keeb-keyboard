@@ -661,13 +661,17 @@
         "uuid": "70eae98a-c9e1-4c31-8b66-fce01a8a9408"
       }
     ],
-    "used_designators": "#PWR1,SW1-102,D1-102,A1",
+    "used_designators": "U1-3,#PWR1,SW1-102,D1-102,A1",
     "variants": []
   },
   "sheets": [
     [
       "70eae98a-c9e1-4c31-8b66-fce01a8a9408",
       "keyboard-full"
+    ],
+    [
+      "7a105e38-3098-495c-bf40-e540f549f406",
+      "RGBMatrix"
     ]
   ],
   "text_variables": {},

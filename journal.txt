@@ -25,3 +25,6 @@ Redid the keyboard layout using an online tool, that can also be reused in the p
 2026-09-05
 Fixed yesterday's problem, redid the pcb design multiple times, so that everything is nice and neat and generated gerbers files!!! Didn't find a place to put the raspberrypi so it's going to stick out from the side. Maybe i'll keep this design, maybe I will make a new one we'll see.
 4h
+
+2026-09-08
+I worked so much on this today, I really wanted to have rgb lighting that isnt the same everywhere and that is very hard to do, apparently you need a rgb matrix driver for that, and I just started looking into it, I also redid my keyboard design to fit the raspberrypi pico in between keys.
