@@ -28,3 +28,6 @@ Fixed yesterday's problem, redid the pcb design multiple times, so that everythi
 
 2026-09-08
 I worked so much on this today, I really wanted to have rgb lighting that isnt the same everywhere and that is very hard to do, apparently you need a rgb matrix driver for that, and I just started looking into it, I also redid my keyboard design to fit the raspberrypi pico in between keys.
+
+2026-09-15
+Learned about addressables rgb leds, which is way simpler to implement than a rgb matrix driver. Started going into the rabbit hole of capacitance and decoupling capacitors, because the datasheet recommended them. Did somewhat a schema design of the addressable rgbs with capacitors, i'm gonna try to get it checked out, because i am not that confident, I did see other rgb designs with addressables rgbs but for some reason they didn't have any capacitors. Another problem is that each rgb draws 12mA of power while the usb 2.0 can only provide 500mA, i think the capacitors can help with this, but also running half of the rgb at a time, ensuring that there is enough power to light them all up.
