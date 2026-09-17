@@ -31,3 +31,7 @@ I worked so much on this today, I really wanted to have rgb lighting that isnt t
 
 2026-09-15
 Learned about addressables rgb leds, which is way simpler to implement than a rgb matrix driver. Started going into the rabbit hole of capacitance and decoupling capacitors, because the datasheet recommended them. Did somewhat a schema design of the addressable rgbs with capacitors, i'm gonna try to get it checked out, because i am not that confident, I did see other rgb designs with addressables rgbs but for some reason they didn't have any capacitors. Another problem is that each rgb draws 12mA of power while the usb 2.0 can only provide 500mA, i think the capacitors can help with this, but also running half of the rgb at a time, ensuring that there is enough power to light them all up.
+
+2026-09-17
+Made some oopsies in the schema design, rechecked the datasheet for the SK6812 MINI-E LEDs and the resistor goes on the data line and not power, also found out that the opheus pico has USB Type-C which can handle more than 0.5A and enough for all the LEDs.
+1h, previous two journal entries don't have hours attached, i'd estimate I had 10h for both of them combined.
