@@ -1,10 +1,11 @@
 INFO: kbplacer_plugin_action.py:73: Plugin version: 0.19
 INFO: kbplacer_plugin_action.py:74: Python version: '3.14.7 (main, Aug 10 2026, 07:46:56) [GCC 16.1.1 20260728]'
-INFO: kbplacer_plugin_action.py:75: KiCad version: 10.0.6 with 4.2.5 gtk3 (phoenix) wxWidgets 3.2.10
+INFO: kbplacer_plugin_action.py:75: KiCad version: 10.0.5 with 4.2.5 gtk3 (phoenix) wxWidgets 3.2.10
 INFO: kbplacer_dialog.py:799: Language: en
-INFO: kbplacer_plugin_action.py:83: GUI state: {"layout_path": "/home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-layout-full.json", "key_distance": [19.05, 19.05], "key_info": {"annotation_format": "MX{}", "position_option": "Default", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": "", "start_index": 1}, "enable_diode_placement": true, "route_switches_with_diodes": false, "optimize_diodes_orientation": false, "diode_info": {"annotation_format": "D{}", "position_option": "Custom", "position": {"x": 8.3, "y": 2.1, "orientation": 90.0, "side": "Back"}, "template_path": "", "start_index": -1}, "additional_elements": [{"annotation_format": "LED{}", "position_option": "Custom", "position": {"x": 0.0, "y": 5.0, "orientation": 0.0, "side": "Back"}, "template_path": "", "start_index": -1}, {"annotation_format": "C{}", "position_option": "Custom", "position": {"x": 0.0, "y": 8.0, "orientation": 180.0, "side": "Back"}, "template_path": "", "start_index": -1}], "route_rows_and_columns": false, "template_path": "", "generate_outline": false, "outline_delta": 0.0, "layout_offset": null}
-DEBUG: key_placer.py:153: Switches by nets: defaultdict(<class 'list'>, {frozenset({'/Row5', '/Col16'}): ['MX91'], frozenset({'/Row5', '/Col15'}): ['MX90'], frozenset({'/Row5', '/Col14'}): ['MX89'], frozenset({'/Row5', '/Col13'}): ['MX88'], frozenset({'/Row5', '/Col11'}): ['MX87'], frozenset({'/Row5', '/Col10'}): ['MX86'], frozenset({'/Row5', '/Col9'}): ['MX85'], frozenset({'/Row5', '/Col5'}): ['MX84'], frozenset({'/Row5', '/Col2'}): ['MX83'], frozenset({'/Row5', '/Col1'}): ['MX82'], frozenset({'/Row5', '/Col0'}): ['MX81'], frozenset({'/Row4', '/Col16'}): ['MX80'], frozenset({'/Row4', '/Col15'}): ['MX79'], frozenset({'/Row4', '/Col14'}): ['MX78'], frozenset({'/Row4', '/Col13'}): ['MX77'], frozenset({'/Row4', '/Col12'}): ['MX76'], frozenset({'/Row4', '/Col11'}): ['MX75'], frozenset({'/Row4', '/Col10'}): ['MX74'], frozenset({'/Row4', '/Col9'}): ['MX73'], frozenset({'/Row4', '/Col8'}): ['MX72'], frozenset({'/Row4', '/Col7'}): ['MX71'], frozenset({'/Row4', '/Col6'}): ['MX70'], frozenset({'/Row4', '/Col5'}): ['MX69'], frozenset({'/Row4', '/Col4'}): ['MX68'], frozenset({'/Row4', '/Col3'}): ['MX67'], frozenset({'/Row4', '/Col2'}): ['MX66'], frozenset({'/Row4', '/Col1'}): ['MX65'], frozenset({'/Row4', '/Col0'}): ['MX64'], frozenset({'/Col13', '/Row3'}): ['MX63'], frozenset({'/Col11', '/Row3'}): ['MX62'], frozenset({'/Row3', '/Col10'}): ['MX61'], frozenset({'/Col9', '/Row3'}): ['MX60'], frozenset({'/Row3', '/Col8'}): ['MX59'], frozenset({'/Row3', '/Col7'}): ['MX58'], frozenset({'/Row3', '/Col6'}): ['MX57'], frozenset({'/Row3', '/Col5'}): ['MX56'], frozenset({'/Row3', '/Col4'}): ['MX55'], frozenset({'/Row3', '/Col3'}): ['MX54'], frozenset({'/Col2', '/Row3'}): ['MX53'], frozenset({'/Row3', '/Col1'}): ['MX52'], frozenset({'/Col0', '/Row3'}): ['MX51'], frozenset({'/Row2', '/Col16'}): ['MX50'], frozenset({'/Row2', '/Col15'}): ['MX49'], frozenset({'/Row2', '/Col14'}): ['MX48'], frozenset({'/Row2', '/Col13'}): ['MX47'], frozenset({'/Row2', '/Col12'}): ['MX46'], frozenset({'/Row2', '/Col11'}): ['MX45'], frozenset({'/Row2', '/Col10'}): ['MX44'], frozenset({'/Row2', '/Col9'}): ['MX43'], frozenset({'/Row2', '/Col8'}): ['MX42'], frozenset({'/Row2', '/Col7'}): ['MX41'], frozenset({'/Row2', '/Col6'}): ['MX40'], frozenset({'/Row2', '/Col5'}): ['MX39'], frozenset({'/Row2', '/Col4'}): ['MX38'], frozenset({'/Row2', '/Col3'}): ['MX37'], frozenset({'/Row2', '/Col2'}): ['MX36'], frozenset({'/Row2', '/Col1'}): ['MX35'], frozenset({'/Row2', '/Col0'}): ['MX34'], frozenset({'/Row1', '/Col16'}): ['MX33'], frozenset({'/Row1', '/Col15'}): ['MX32'], frozenset({'/Col14', '/Row1'}): ['MX31'], frozenset({'/Col13', '/Row1'}): ['MX30'], frozenset({'/Col12', '/Row1'}): ['MX29'], frozenset({'/Col11', '/Row1'}): ['MX28'], frozenset({'/Col10', '/Row1'}): ['MX27'], frozenset({'/Col9', '/Row1'}): ['MX26'], frozenset({'/Col8', '/Row1'}): ['MX25'], frozenset({'/Col7', '/Row1'}): ['MX24'], frozenset({'/Col6', '/Row1'}): ['MX23'], frozenset({'/Row1', '/Col5'}): ['MX22'], frozenset({'/Col4', '/Row1'}): ['MX21'], frozenset({'/Col3', '/Row1'}): ['MX20'], frozenset({'/Col2', '/Row1'}): ['MX19'], frozenset({'/Col1', '/Row1'}): ['MX18'], frozenset({'/Col0', '/Row1'}): ['MX17'], frozenset({'/Col16', '/Row0'}): ['MX16'], frozenset({'/Col15', '/Row0'}): ['MX15'], frozenset({'/Col14', '/Row0'}): ['MX14'], frozenset({'/Col13', '/Row0'}): ['MX13'], frozenset({'/Col12', '/Row0'}): ['MX12'], frozenset({'/Col11', '/Row0'}): ['MX11'], frozenset({'/Col10', '/Row0'}): ['MX10'], frozenset({'/Col9', '/Row0'}): ['MX9'], frozenset({'/Col8', '/Row0'}): ['MX8'], frozenset({'/Col7', '/Row0'}): ['MX7'], frozenset({'/Col6', '/Row0'}): ['MX6'], frozenset({'/Col5', '/Row0'}): ['MX5'], frozenset({'/Col4', '/Row0'}): ['MX4'], frozenset({'/Col3', '/Row0'}): ['MX3'], frozenset({'/Col2', '/Row0'}): ['MX2'], frozenset({'/Col0', '/Row0'}): ['MX1']})
-DEBUG: key_placer.py:157: Diodes by switch: {'MX91': ['D91'], 'MX90': ['D90'], 'MX89': ['D89'], 'MX88': ['D88'], 'MX87': ['D87'], 'MX86': ['D86'], 'MX85': ['D85'], 'MX84': ['D84'], 'MX83': ['D83'], 'MX82': ['D82'], 'MX81': ['D81'], 'MX80': ['D80'], 'MX79': ['D79'], 'MX78': ['D78'], 'MX77': ['D77'], 'MX76': ['D76'], 'MX75': ['D75'], 'MX74': ['D74'], 'MX73': ['D73'], 'MX72': ['D72'], 'MX71': ['D71'], 'MX70': ['D70'], 'MX69': ['D69'], 'MX68': ['D68'], 'MX67': ['D67'], 'MX66': ['D66'], 'MX65': ['D65'], 'MX64': ['D64'], 'MX63': ['D63'], 'MX62': ['D62'], 'MX61': ['D61'], 'MX60': ['D60'], 'MX59': ['D59'], 'MX58': ['D58'], 'MX57': ['D57'], 'MX56': ['D56'], 'MX55': ['D55'], 'MX54': ['D54'], 'MX53': ['D53'], 'MX52': ['D52'], 'MX51': ['D51'], 'MX50': ['D50'], 'MX49': ['D49'], 'MX48': ['D48'], 'MX47': ['D47'], 'MX46': ['D46'], 'MX45': ['D45'], 'MX44': ['D44'], 'MX43': ['D43'], 'MX42': ['D42'], 'MX41': ['D41'], 'MX40': ['D40'], 'MX39': ['D39'], 'MX38': ['D38'], 'MX37': ['D37'], 'MX36': ['D36'], 'MX35': ['D35'], 'MX34': ['D34'], 'MX33': ['D33'], 'MX32': ['D32'], 'MX31': ['D31'], 'MX30': ['D30'], 'MX29': ['D29'], 'MX28': ['D28'], 'MX27': ['D27'], 'MX26': ['D26'], 'MX25': ['D25'], 'MX24': ['D24'], 'MX23': ['D23'], 'MX22': ['D22'], 'MX21': ['D21'], 'MX20': ['D20'], 'MX19': ['D19'], 'MX18': ['D18'], 'MX17': ['D17'], 'MX16': ['D16'], 'MX15': ['D15'], 'MX14': ['D14'], 'MX13': ['D13'], 'MX12': ['D12'], 'MX11': ['D11'], 'MX10': ['D10'], 'MX9': ['D9'], 'MX8': ['D8'], 'MX7': ['D7'], 'MX6': ['D6'], 'MX5': ['D5'], 'MX4': ['D4'], 'MX3': ['D3'], 'MX2': ['D2'], 'MX1': ['D1']}
+DEBUG: kle_serial.py:1082: Could not load explicit spacing from layout: [Errno 2] No such file or directory: '/home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-layout-full.json'
+INFO: kbplacer_plugin_action.py:83: GUI state: {"layout_path": "/home/kozachok/projects/keeb-keyboard/keyboard-layout-full.json", "key_distance": [19.05, 19.05], "key_info": {"annotation_format": "MX{}", "position_option": "Default", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": "", "start_index": 1}, "enable_diode_placement": true, "route_switches_with_diodes": true, "optimize_diodes_orientation": false, "diode_info": {"annotation_format": "D{}", "position_option": "Custom", "position": {"x": 8.3, "y": 2.1, "orientation": 90.0, "side": "Back"}, "template_path": "", "start_index": -1}, "additional_elements": [{"annotation_format": "LED{}", "position_option": "Custom", "position": {"x": 0.0, "y": 5.0, "orientation": 0.0, "side": "Back"}, "template_path": "", "start_index": -1}, {"annotation_format": "C{}", "position_option": "Custom", "position": {"x": 0.0, "y": 8.0, "orientation": 180.0, "side": "Back"}, "template_path": "", "start_index": -1}], "route_rows_and_columns": false, "template_path": "", "generate_outline": false, "outline_delta": 0.0, "layout_offset": null}
+DEBUG: key_placer.py:153: Switches by nets: defaultdict(<class 'list'>, {frozenset({'/Col11', '/Row2'}): ['MX45'], frozenset({'/Row0', '/Col13'}): ['MX13'], frozenset({'/Col10', '/Row1'}): ['MX27'], frozenset({'/Row0', '/Col0'}): ['MX1'], frozenset({'/Col12', '/Row2'}): ['MX46'], frozenset({'/Row4', '/Col15'}): ['MX79'], frozenset({'/Col2', '/Row5'}): ['MX83'], frozenset({'/Col10', '/Row2'}): ['MX44'], frozenset({'/Col3', '/Row4'}): ['MX67'], frozenset({'/Row0', '/Col5'}): ['MX5'], frozenset({'/Row5', '/Col1'}): ['MX82'], frozenset({'/Col9', '/Row3'}): ['MX60'], frozenset({'/Row4', '/Col16'}): ['MX80'], frozenset({'/Col9', '/Row1'}): ['MX26'], frozenset({'/Col9', '/Row2'}): ['MX43'], frozenset({'/Col11', '/Row1'}): ['MX28'], frozenset({'/Col4', '/Row2'}): ['MX38'], frozenset({'/Row4', '/Col4'}): ['MX68'], frozenset({'/Col1', '/Row1'}): ['MX18'], frozenset({'/Row4', '/Col2'}): ['MX66'], frozenset({'/Row0', '/Col6'}): ['MX6'], frozenset({'/Col9', '/Row5'}): ['MX85'], frozenset({'/Col16', '/Row1'}): ['MX33'], frozenset({'/Row4', '/Col13'}): ['MX77'], frozenset({'/Row4', '/Col12'}): ['MX76'], frozenset({'/Col8', '/Row3'}): ['MX59'], frozenset({'/Col8', '/Row2'}): ['MX42'], frozenset({'/Col13', '/Row5'}): ['MX88'], frozenset({'/Col12', '/Row0'}): ['MX12'], frozenset({'/Col7', '/Row1'}): ['MX24'], frozenset({'/Col3', '/Row1'}): ['MX20'], frozenset({'/Col2', '/Row3'}): ['MX53'], frozenset({'/Col3', '/Row3'}): ['MX54'], frozenset({'/Col7', '/Row2'}): ['MX41'], frozenset({'/Col8', '/Row1'}): ['MX25'], frozenset({'/Col10', '/Row3'}): ['MX61'], frozenset({'/Col12', '/Row1'}): ['MX29'], frozenset({'/Col5', '/Row3'}): ['MX56'], frozenset({'/Col13', '/Row1'}): ['MX30'], frozenset({'/Col3', '/Row2'}): ['MX37'], frozenset({'/Row4', '/Col14'}): ['MX78'], frozenset({'/Col16', '/Row2'}): ['MX50'], frozenset({'/Col11', '/Row3'}): ['MX62'], frozenset({'/Row4', '/Col10'}): ['MX74'], frozenset({'/Col6', '/Row2'}): ['MX40'], frozenset({'/Row4', '/Col5'}): ['MX69'], frozenset({'/Col15', '/Row2'}): ['MX49'], frozenset({'/Row4', '/Col9'}): ['MX73'], frozenset({'/Col5', '/Row2'}): ['MX39'], frozenset({'/Col16', '/Row5'}): ['MX91'], frozenset({'/Col13', '/Row3'}): ['MX63'], frozenset({'/Col15', '/Row5'}): ['MX90'], frozenset({'/Row0', '/Col2'}): ['MX2'], frozenset({'/Row3', '/Col6'}): ['MX57'], frozenset({'/Row0', '/Col15'}): ['MX15'], frozenset({'/Row0', '/Col4'}): ['MX4'], frozenset({'/Col0', '/Row3'}): ['MX51'], frozenset({'/Col0', '/Row1'}): ['MX17'], frozenset({'/Row0', '/Col16'}): ['MX16'], frozenset({'/Col14', '/Row1'}): ['MX31'], frozenset({'/Col11', '/Row0'}): ['MX11'], frozenset({'/Row0', '/Col9'}): ['MX9'], frozenset({'/Row0', '/Col14'}): ['MX14'], frozenset({'/Row4', '/Col7'}): ['MX71'], frozenset({'/Col5', '/Row1'}): ['MX22'], frozenset({'/Row0', '/Col7'}): ['MX7'], frozenset({'/Col5', '/Row5'}): ['MX84'], frozenset({'/Col0', '/Row5'}): ['MX81'], frozenset({'/Col1', '/Row2'}): ['MX35'], frozenset({'/Row4', '/Col1'}): ['MX65'], frozenset({'/Col8', '/Row0'}): ['MX8'], frozenset({'/Row3', '/Col4'}): ['MX55'], frozenset({'/Col14', '/Row5'}): ['MX89'], frozenset({'/Col11', '/Row4'}): ['MX75'], frozenset({'/Col2', '/Row2'}): ['MX36'], frozenset({'/Col13', '/Row2'}): ['MX47'], frozenset({'/Col4', '/Row1'}): ['MX21'], frozenset({'/Row3', '/Col1'}): ['MX52'], frozenset({'/Col15', '/Row1'}): ['MX32'], frozenset({'/Col3', '/Row0'}): ['MX3'], frozenset({'/Row1', '/Col6'}): ['MX23'], frozenset({'/Row4', '/Col8'}): ['MX72'], frozenset({'/Col2', '/Row1'}): ['MX19'], frozenset({'/Row4', '/Col6'}): ['MX70'], frozenset({'/Col14', '/Row2'}): ['MX48'], frozenset({'/Col0', '/Row2'}): ['MX34'], frozenset({'/Col11', '/Row5'}): ['MX87'], frozenset({'/Col10', '/Row5'}): ['MX86'], frozenset({'/Row0', '/Col10'}): ['MX10'], frozenset({'/Col7', '/Row3'}): ['MX58'], frozenset({'/Row4', '/Col0'}): ['MX64']})
+DEBUG: key_placer.py:157: Diodes by switch: {'MX5': ['D5'], 'MX72': ['D72'], 'MX41': ['D41'], 'MX63': ['D63'], 'MX13': ['D13'], 'MX80': ['D80'], 'MX30': ['D30'], 'MX75': ['D75'], 'MX66': ['D66'], 'MX50': ['D50'], 'MX17': ['D17'], 'MX52': ['D52'], 'MX73': ['D73'], 'MX6': ['D6'], 'MX81': ['D81'], 'MX14': ['D14'], 'MX78': ['D78'], 'MX29': ['D29'], 'MX21': ['D21'], 'MX70': ['D70'], 'MX40': ['D40'], 'MX58': ['D58'], 'MX24': ['D24'], 'MX20': ['D20'], 'MX48': ['D48'], 'MX87': ['D87'], 'MX18': ['D18'], 'MX89': ['D89'], 'MX1': ['D1'], 'MX7': ['D7'], 'MX2': ['D2'], 'MX9': ['D9'], 'MX16': ['D16'], 'MX82': ['D82'], 'MX44': ['D44'], 'MX4': ['D4'], 'MX83': ['D83'], 'MX64': ['D64'], 'MX67': ['D67'], 'MX49': ['D49'], 'MX47': ['D47'], 'MX43': ['D43'], 'MX51': ['D51'], 'MX33': ['D33'], 'MX85': ['D85'], 'MX60': ['D60'], 'MX27': ['D27'], 'MX77': ['D77'], 'MX74': ['D74'], 'MX42': ['D42'], 'MX46': ['D46'], 'MX39': ['D39'], 'MX25': ['D25'], 'MX23': ['D23'], 'MX90': ['D90'], 'MX31': ['D31'], 'MX68': ['D68'], 'MX65': ['D65'], 'MX55': ['D55'], 'MX56': ['D56'], 'MX61': ['D61'], 'MX57': ['D57'], 'MX32': ['D32'], 'MX3': ['D3'], 'MX19': ['D19'], 'MX62': ['D62'], 'MX35': ['D35'], 'MX69': ['D69'], 'MX71': ['D71'], 'MX10': ['D10'], 'MX22': ['D22'], 'MX26': ['D26'], 'MX88': ['D88'], 'MX54': ['D54'], 'MX36': ['D36'], 'MX45': ['D45'], 'MX11': ['D11'], 'MX53': ['D53'], 'MX15': ['D15'], 'MX12': ['D12'], 'MX28': ['D28'], 'MX59': ['D59'], 'MX86': ['D86'], 'MX84': ['D84'], 'MX8': ['D8'], 'MX38': ['D38'], 'MX34': ['D34'], 'MX91': ['D91'], 'MX79': ['D79'], 'MX76': ['D76'], 'MX37': ['D37']}
 INFO: key_placer.py:785: Using key 1U distance: (19.05, 19.05) mm
 INFO: key_placer.py:803: Layout offset: (28575000, 28575000)
 DEBUG: kle_serial.py:1131: Layout with: x_ortholinear_keys=41, y_ortholinear_keys=16, rotated_keys=0, encoders=0, iso_enters=0 and unrecognized_shape_keys=0
@@ -283,549 +284,1185 @@ DEBUG: board_modifier.py:132: Getting MX90 footprint position: (366712500, 14287
 DEBUG: board_modifier.py:119: Setting D90 footprint position: (375012500, 144975000)
 DEBUG: board_modifier.py:132: Getting MX91 footprint position: (385762500, 142875000)
 DEBUG: board_modifier.py:119: Setting D91 footprint position: (394062500, 144975000)
-INFO: key_placer.py:979: Placing additional elements for MX91
-DEBUG: board_modifier.py:132: Getting MX91 footprint position: (385762500, 142875000)
-DEBUG: board_modifier.py:84: Searching for optional LED91 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED91 footprint position: (385762500, 147875000)
-DEBUG: board_modifier.py:84: Searching for optional C91 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C91 footprint position: (385762500, 150875000)
-INFO: key_placer.py:979: Placing additional elements for MX90
-DEBUG: board_modifier.py:132: Getting MX90 footprint position: (366712500, 142875000)
-DEBUG: board_modifier.py:84: Searching for optional LED90 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED90 footprint position: (366712500, 147875000)
-DEBUG: board_modifier.py:84: Searching for optional C90 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C90 footprint position: (366712500, 150875000)
-INFO: key_placer.py:979: Placing additional elements for MX89
-DEBUG: board_modifier.py:132: Getting MX89 footprint position: (347662500, 142875000)
-DEBUG: board_modifier.py:84: Searching for optional LED89 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED89 footprint position: (347662500, 147875000)
-DEBUG: board_modifier.py:84: Searching for optional C89 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C89 footprint position: (347662500, 150875000)
-INFO: key_placer.py:979: Placing additional elements for MX88
-DEBUG: board_modifier.py:132: Getting MX88 footprint position: (302418750, 142875000)
-DEBUG: board_modifier.py:84: Searching for optional LED88 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED88 footprint position: (302418750, 147875000)
-DEBUG: board_modifier.py:84: Searching for optional C88 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C88 footprint position: (302418750, 150875000)
-INFO: key_placer.py:979: Placing additional elements for MX87
-DEBUG: board_modifier.py:132: Getting MX87 footprint position: (278606250, 142875000)
-DEBUG: board_modifier.py:84: Searching for optional LED87 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED87 footprint position: (278606250, 147875000)
-DEBUG: board_modifier.py:84: Searching for optional C87 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C87 footprint position: (278606250, 150875000)
-INFO: key_placer.py:979: Placing additional elements for MX86
-DEBUG: board_modifier.py:132: Getting MX86 footprint position: (254793750, 142875000)
-DEBUG: board_modifier.py:84: Searching for optional LED86 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED86 footprint position: (254793750, 147875000)
-DEBUG: board_modifier.py:84: Searching for optional C86 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C86 footprint position: (254793750, 150875000)
-INFO: key_placer.py:979: Placing additional elements for MX85
-DEBUG: board_modifier.py:132: Getting MX85 footprint position: (230981250, 142875000)
-DEBUG: board_modifier.py:84: Searching for optional LED85 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED85 footprint position: (230981250, 147875000)
-DEBUG: board_modifier.py:84: Searching for optional C85 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C85 footprint position: (230981250, 150875000)
-INFO: key_placer.py:979: Placing additional elements for MX84
-DEBUG: board_modifier.py:132: Getting MX84 footprint position: (159543750, 142875000)
-DEBUG: board_modifier.py:84: Searching for optional LED84 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED84 footprint position: (159543750, 147875000)
-DEBUG: board_modifier.py:84: Searching for optional C84 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C84 footprint position: (159543750, 150875000)
-INFO: key_placer.py:979: Placing additional elements for MX83
-DEBUG: board_modifier.py:132: Getting MX83 footprint position: (88106250, 142875000)
-DEBUG: board_modifier.py:84: Searching for optional LED83 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED83 footprint position: (88106250, 147875000)
-DEBUG: board_modifier.py:84: Searching for optional C83 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C83 footprint position: (88106250, 150875000)
-INFO: key_placer.py:979: Placing additional elements for MX82
-DEBUG: board_modifier.py:132: Getting MX82 footprint position: (64293750, 142875000)
-DEBUG: board_modifier.py:84: Searching for optional LED82 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED82 footprint position: (64293750, 147875000)
-DEBUG: board_modifier.py:84: Searching for optional C82 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C82 footprint position: (64293750, 150875000)
-INFO: key_placer.py:979: Placing additional elements for MX81
-DEBUG: board_modifier.py:132: Getting MX81 footprint position: (40481250, 142875000)
-DEBUG: board_modifier.py:84: Searching for optional LED81 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED81 footprint position: (40481250, 147875000)
-DEBUG: board_modifier.py:84: Searching for optional C81 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C81 footprint position: (40481250, 150875000)
-INFO: key_placer.py:979: Placing additional elements for MX80
-DEBUG: board_modifier.py:132: Getting MX80 footprint position: (385762500, 123825000)
-DEBUG: board_modifier.py:84: Searching for optional LED80 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED80 footprint position: (385762500, 128825000)
-DEBUG: board_modifier.py:84: Searching for optional C80 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C80 footprint position: (385762500, 131825000)
+INFO: key_placer.py:979: Placing additional elements for MX45
+DEBUG: board_modifier.py:132: Getting MX45 footprint position: (257175000, 85725000)
+DEBUG: board_modifier.py:84: Searching for optional LED45 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED45 footprint position: (257175000, 90725000)
+DEBUG: board_modifier.py:84: Searching for optional C45 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C45 footprint position: (257175000, 93725000)
+INFO: key_placer.py:979: Placing additional elements for MX13
+DEBUG: board_modifier.py:132: Getting MX13 footprint position: (304800000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional LED13 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED13 footprint position: (304800000, 43100000)
+DEBUG: board_modifier.py:84: Searching for optional C13 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C13 footprint position: (304800000, 46100000)
+INFO: key_placer.py:979: Placing additional elements for MX27
+DEBUG: board_modifier.py:132: Getting MX27 footprint position: (228600000, 66675000)
+DEBUG: board_modifier.py:84: Searching for optional LED27 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED27 footprint position: (228600000, 71675000)
+DEBUG: board_modifier.py:84: Searching for optional C27 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C27 footprint position: (228600000, 74675000)
+INFO: key_placer.py:979: Placing additional elements for MX1
+DEBUG: board_modifier.py:132: Getting MX1 footprint position: (38100000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional LED1 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED1 footprint position: (38100000, 43100000)
+DEBUG: board_modifier.py:84: Searching for optional C1 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C1 footprint position: (38100000, 46100000)
+INFO: key_placer.py:979: Placing additional elements for MX46
+DEBUG: board_modifier.py:132: Getting MX46 footprint position: (276225000, 85725000)
+DEBUG: board_modifier.py:84: Searching for optional LED46 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED46 footprint position: (276225000, 90725000)
+DEBUG: board_modifier.py:84: Searching for optional C46 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C46 footprint position: (276225000, 93725000)
 INFO: key_placer.py:979: Placing additional elements for MX79
 DEBUG: board_modifier.py:132: Getting MX79 footprint position: (366712500, 123825000)
-DEBUG: board_modifier.py:84: Searching for optional LED79 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:84: Searching for optional LED79 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
 DEBUG: board_modifier.py:119: Setting LED79 footprint position: (366712500, 128825000)
-DEBUG: board_modifier.py:84: Searching for optional C79 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:84: Searching for optional C79 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
 DEBUG: board_modifier.py:119: Setting C79 footprint position: (366712500, 131825000)
-INFO: key_placer.py:979: Placing additional elements for MX78
-DEBUG: board_modifier.py:132: Getting MX78 footprint position: (347662500, 123825000)
-DEBUG: board_modifier.py:84: Searching for optional LED78 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED78 footprint position: (347662500, 128825000)
-DEBUG: board_modifier.py:84: Searching for optional C78 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C78 footprint position: (347662500, 131825000)
+INFO: key_placer.py:979: Placing additional elements for MX83
+DEBUG: board_modifier.py:132: Getting MX83 footprint position: (88106250, 142875000)
+DEBUG: board_modifier.py:84: Searching for optional LED83 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED83 footprint position: (88106250, 147875000)
+DEBUG: board_modifier.py:84: Searching for optional C83 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C83 footprint position: (88106250, 150875000)
+INFO: key_placer.py:979: Placing additional elements for MX44
+DEBUG: board_modifier.py:132: Getting MX44 footprint position: (238125000, 85725000)
+DEBUG: board_modifier.py:84: Searching for optional LED44 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED44 footprint position: (238125000, 90725000)
+DEBUG: board_modifier.py:84: Searching for optional C44 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C44 footprint position: (238125000, 93725000)
+INFO: key_placer.py:979: Placing additional elements for MX67
+DEBUG: board_modifier.py:132: Getting MX67 footprint position: (114300000, 123825000)
+DEBUG: board_modifier.py:84: Searching for optional LED67 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED67 footprint position: (114300000, 128825000)
+DEBUG: board_modifier.py:84: Searching for optional C67 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C67 footprint position: (114300000, 131825000)
+INFO: key_placer.py:979: Placing additional elements for MX5
+DEBUG: board_modifier.py:132: Getting MX5 footprint position: (133350000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional LED5 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED5 footprint position: (133350000, 43100000)
+DEBUG: board_modifier.py:84: Searching for optional C5 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C5 footprint position: (133350000, 46100000)
+INFO: key_placer.py:979: Placing additional elements for MX82
+DEBUG: board_modifier.py:132: Getting MX82 footprint position: (64293750, 142875000)
+DEBUG: board_modifier.py:84: Searching for optional LED82 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED82 footprint position: (64293750, 147875000)
+DEBUG: board_modifier.py:84: Searching for optional C82 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C82 footprint position: (64293750, 150875000)
+INFO: key_placer.py:979: Placing additional elements for MX60
+DEBUG: board_modifier.py:132: Getting MX60 footprint position: (223837500, 104775000)
+DEBUG: board_modifier.py:84: Searching for optional LED60 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED60 footprint position: (223837500, 109775000)
+DEBUG: board_modifier.py:84: Searching for optional C60 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C60 footprint position: (223837500, 112775000)
+INFO: key_placer.py:979: Placing additional elements for MX80
+DEBUG: board_modifier.py:132: Getting MX80 footprint position: (385762500, 123825000)
+DEBUG: board_modifier.py:84: Searching for optional LED80 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED80 footprint position: (385762500, 128825000)
+DEBUG: board_modifier.py:84: Searching for optional C80 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C80 footprint position: (385762500, 131825000)
+INFO: key_placer.py:979: Placing additional elements for MX26
+DEBUG: board_modifier.py:132: Getting MX26 footprint position: (209550000, 66675000)
+DEBUG: board_modifier.py:84: Searching for optional LED26 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED26 footprint position: (209550000, 71675000)
+DEBUG: board_modifier.py:84: Searching for optional C26 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C26 footprint position: (209550000, 74675000)
+INFO: key_placer.py:979: Placing additional elements for MX43
+DEBUG: board_modifier.py:132: Getting MX43 footprint position: (219075000, 85725000)
+DEBUG: board_modifier.py:84: Searching for optional LED43 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED43 footprint position: (219075000, 90725000)
+DEBUG: board_modifier.py:84: Searching for optional C43 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C43 footprint position: (219075000, 93725000)
+INFO: key_placer.py:979: Placing additional elements for MX28
+DEBUG: board_modifier.py:132: Getting MX28 footprint position: (247650000, 66675000)
+DEBUG: board_modifier.py:84: Searching for optional LED28 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED28 footprint position: (247650000, 71675000)
+DEBUG: board_modifier.py:84: Searching for optional C28 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C28 footprint position: (247650000, 74675000)
+INFO: key_placer.py:979: Placing additional elements for MX38
+DEBUG: board_modifier.py:132: Getting MX38 footprint position: (123825000, 85725000)
+DEBUG: board_modifier.py:84: Searching for optional LED38 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED38 footprint position: (123825000, 90725000)
+DEBUG: board_modifier.py:84: Searching for optional C38 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C38 footprint position: (123825000, 93725000)
+INFO: key_placer.py:979: Placing additional elements for MX68
+DEBUG: board_modifier.py:132: Getting MX68 footprint position: (133350000, 123825000)
+DEBUG: board_modifier.py:84: Searching for optional LED68 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED68 footprint position: (133350000, 128825000)
+DEBUG: board_modifier.py:84: Searching for optional C68 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C68 footprint position: (133350000, 131825000)
+INFO: key_placer.py:979: Placing additional elements for MX18
+DEBUG: board_modifier.py:132: Getting MX18 footprint position: (57150000, 66675000)
+DEBUG: board_modifier.py:84: Searching for optional LED18 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED18 footprint position: (57150000, 71675000)
+DEBUG: board_modifier.py:84: Searching for optional C18 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C18 footprint position: (57150000, 74675000)
+INFO: key_placer.py:979: Placing additional elements for MX66
+DEBUG: board_modifier.py:132: Getting MX66 footprint position: (95250000, 123825000)
+DEBUG: board_modifier.py:84: Searching for optional LED66 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED66 footprint position: (95250000, 128825000)
+DEBUG: board_modifier.py:84: Searching for optional C66 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C66 footprint position: (95250000, 131825000)
+INFO: key_placer.py:979: Placing additional elements for MX6
+DEBUG: board_modifier.py:132: Getting MX6 footprint position: (161925000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional LED6 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED6 footprint position: (161925000, 43100000)
+DEBUG: board_modifier.py:84: Searching for optional C6 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C6 footprint position: (161925000, 46100000)
+INFO: key_placer.py:979: Placing additional elements for MX85
+DEBUG: board_modifier.py:132: Getting MX85 footprint position: (230981250, 142875000)
+DEBUG: board_modifier.py:84: Searching for optional LED85 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED85 footprint position: (230981250, 147875000)
+DEBUG: board_modifier.py:84: Searching for optional C85 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C85 footprint position: (230981250, 150875000)
+INFO: key_placer.py:979: Placing additional elements for MX33
+DEBUG: board_modifier.py:132: Getting MX33 footprint position: (385762500, 66675000)
+DEBUG: board_modifier.py:84: Searching for optional LED33 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED33 footprint position: (385762500, 71675000)
+DEBUG: board_modifier.py:84: Searching for optional C33 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C33 footprint position: (385762500, 74675000)
 INFO: key_placer.py:979: Placing additional elements for MX77
 DEBUG: board_modifier.py:132: Getting MX77 footprint position: (304800000, 123825000)
-DEBUG: board_modifier.py:84: Searching for optional LED77 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:84: Searching for optional LED77 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
 DEBUG: board_modifier.py:119: Setting LED77 footprint position: (304800000, 128825000)
-DEBUG: board_modifier.py:84: Searching for optional C77 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:84: Searching for optional C77 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
 DEBUG: board_modifier.py:119: Setting C77 footprint position: (304800000, 131825000)
 INFO: key_placer.py:979: Placing additional elements for MX76
 DEBUG: board_modifier.py:132: Getting MX76 footprint position: (285750000, 123825000)
-DEBUG: board_modifier.py:84: Searching for optional LED76 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:84: Searching for optional LED76 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
 DEBUG: board_modifier.py:119: Setting LED76 footprint position: (285750000, 128825000)
-DEBUG: board_modifier.py:84: Searching for optional C76 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:84: Searching for optional C76 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
 DEBUG: board_modifier.py:119: Setting C76 footprint position: (285750000, 131825000)
-INFO: key_placer.py:979: Placing additional elements for MX75
-DEBUG: board_modifier.py:132: Getting MX75 footprint position: (266700000, 123825000)
-DEBUG: board_modifier.py:84: Searching for optional LED75 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED75 footprint position: (266700000, 128825000)
-DEBUG: board_modifier.py:84: Searching for optional C75 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C75 footprint position: (266700000, 131825000)
-INFO: key_placer.py:979: Placing additional elements for MX74
-DEBUG: board_modifier.py:132: Getting MX74 footprint position: (247650000, 123825000)
-DEBUG: board_modifier.py:84: Searching for optional LED74 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED74 footprint position: (247650000, 128825000)
-DEBUG: board_modifier.py:84: Searching for optional C74 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C74 footprint position: (247650000, 131825000)
-INFO: key_placer.py:979: Placing additional elements for MX73
-DEBUG: board_modifier.py:132: Getting MX73 footprint position: (228600000, 123825000)
-DEBUG: board_modifier.py:84: Searching for optional LED73 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED73 footprint position: (228600000, 128825000)
-DEBUG: board_modifier.py:84: Searching for optional C73 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C73 footprint position: (228600000, 131825000)
-INFO: key_placer.py:979: Placing additional elements for MX72
-DEBUG: board_modifier.py:132: Getting MX72 footprint position: (209550000, 123825000)
-DEBUG: board_modifier.py:84: Searching for optional LED72 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED72 footprint position: (209550000, 128825000)
-DEBUG: board_modifier.py:84: Searching for optional C72 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C72 footprint position: (209550000, 131825000)
-INFO: key_placer.py:979: Placing additional elements for MX71
-DEBUG: board_modifier.py:132: Getting MX71 footprint position: (190500000, 123825000)
-DEBUG: board_modifier.py:84: Searching for optional LED71 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED71 footprint position: (190500000, 128825000)
-DEBUG: board_modifier.py:84: Searching for optional C71 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C71 footprint position: (190500000, 131825000)
-INFO: key_placer.py:979: Placing additional elements for MX70
-DEBUG: board_modifier.py:132: Getting MX70 footprint position: (171450000, 123825000)
-DEBUG: board_modifier.py:84: Searching for optional LED70 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED70 footprint position: (171450000, 128825000)
-DEBUG: board_modifier.py:84: Searching for optional C70 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C70 footprint position: (171450000, 131825000)
-INFO: key_placer.py:979: Placing additional elements for MX69
-DEBUG: board_modifier.py:132: Getting MX69 footprint position: (152400000, 123825000)
-DEBUG: board_modifier.py:84: Searching for optional LED69 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED69 footprint position: (152400000, 128825000)
-DEBUG: board_modifier.py:84: Searching for optional C69 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C69 footprint position: (152400000, 131825000)
-INFO: key_placer.py:979: Placing additional elements for MX68
-DEBUG: board_modifier.py:132: Getting MX68 footprint position: (133350000, 123825000)
-DEBUG: board_modifier.py:84: Searching for optional LED68 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED68 footprint position: (133350000, 128825000)
-DEBUG: board_modifier.py:84: Searching for optional C68 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C68 footprint position: (133350000, 131825000)
-INFO: key_placer.py:979: Placing additional elements for MX67
-DEBUG: board_modifier.py:132: Getting MX67 footprint position: (114300000, 123825000)
-DEBUG: board_modifier.py:84: Searching for optional LED67 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED67 footprint position: (114300000, 128825000)
-DEBUG: board_modifier.py:84: Searching for optional C67 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C67 footprint position: (114300000, 131825000)
-INFO: key_placer.py:979: Placing additional elements for MX66
-DEBUG: board_modifier.py:132: Getting MX66 footprint position: (95250000, 123825000)
-DEBUG: board_modifier.py:84: Searching for optional LED66 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED66 footprint position: (95250000, 128825000)
-DEBUG: board_modifier.py:84: Searching for optional C66 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C66 footprint position: (95250000, 131825000)
-INFO: key_placer.py:979: Placing additional elements for MX65
-DEBUG: board_modifier.py:132: Getting MX65 footprint position: (76200000, 123825000)
-DEBUG: board_modifier.py:84: Searching for optional LED65 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED65 footprint position: (76200000, 128825000)
-DEBUG: board_modifier.py:84: Searching for optional C65 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C65 footprint position: (76200000, 131825000)
-INFO: key_placer.py:979: Placing additional elements for MX64
-DEBUG: board_modifier.py:132: Getting MX64 footprint position: (47625000, 123825000)
-DEBUG: board_modifier.py:84: Searching for optional LED64 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED64 footprint position: (47625000, 128825000)
-DEBUG: board_modifier.py:84: Searching for optional C64 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C64 footprint position: (47625000, 131825000)
-INFO: key_placer.py:979: Placing additional elements for MX63
-DEBUG: board_modifier.py:132: Getting MX63 footprint position: (292893750, 104775000)
-DEBUG: board_modifier.py:84: Searching for optional LED63 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED63 footprint position: (292893750, 109775000)
-DEBUG: board_modifier.py:84: Searching for optional C63 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C63 footprint position: (292893750, 112775000)
-INFO: key_placer.py:979: Placing additional elements for MX62
-DEBUG: board_modifier.py:132: Getting MX62 footprint position: (261937500, 104775000)
-DEBUG: board_modifier.py:84: Searching for optional LED62 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED62 footprint position: (261937500, 109775000)
-DEBUG: board_modifier.py:84: Searching for optional C62 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C62 footprint position: (261937500, 112775000)
-INFO: key_placer.py:979: Placing additional elements for MX61
-DEBUG: board_modifier.py:132: Getting MX61 footprint position: (242887500, 104775000)
-DEBUG: board_modifier.py:84: Searching for optional LED61 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED61 footprint position: (242887500, 109775000)
-DEBUG: board_modifier.py:84: Searching for optional C61 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C61 footprint position: (242887500, 112775000)
-INFO: key_placer.py:979: Placing additional elements for MX60
-DEBUG: board_modifier.py:132: Getting MX60 footprint position: (223837500, 104775000)
-DEBUG: board_modifier.py:84: Searching for optional LED60 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED60 footprint position: (223837500, 109775000)
-DEBUG: board_modifier.py:84: Searching for optional C60 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C60 footprint position: (223837500, 112775000)
 INFO: key_placer.py:979: Placing additional elements for MX59
 DEBUG: board_modifier.py:132: Getting MX59 footprint position: (204787500, 104775000)
-DEBUG: board_modifier.py:84: Searching for optional LED59 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:84: Searching for optional LED59 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
 DEBUG: board_modifier.py:119: Setting LED59 footprint position: (204787500, 109775000)
-DEBUG: board_modifier.py:84: Searching for optional C59 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:84: Searching for optional C59 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
 DEBUG: board_modifier.py:119: Setting C59 footprint position: (204787500, 112775000)
-INFO: key_placer.py:979: Placing additional elements for MX58
-DEBUG: board_modifier.py:132: Getting MX58 footprint position: (185737500, 104775000)
-DEBUG: board_modifier.py:84: Searching for optional LED58 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED58 footprint position: (185737500, 109775000)
-DEBUG: board_modifier.py:84: Searching for optional C58 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C58 footprint position: (185737500, 112775000)
-INFO: key_placer.py:979: Placing additional elements for MX57
-DEBUG: board_modifier.py:132: Getting MX57 footprint position: (166687500, 104775000)
-DEBUG: board_modifier.py:84: Searching for optional LED57 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED57 footprint position: (166687500, 109775000)
-DEBUG: board_modifier.py:84: Searching for optional C57 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C57 footprint position: (166687500, 112775000)
-INFO: key_placer.py:979: Placing additional elements for MX56
-DEBUG: board_modifier.py:132: Getting MX56 footprint position: (147637500, 104775000)
-DEBUG: board_modifier.py:84: Searching for optional LED56 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED56 footprint position: (147637500, 109775000)
-DEBUG: board_modifier.py:84: Searching for optional C56 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C56 footprint position: (147637500, 112775000)
-INFO: key_placer.py:979: Placing additional elements for MX55
-DEBUG: board_modifier.py:132: Getting MX55 footprint position: (128587500, 104775000)
-DEBUG: board_modifier.py:84: Searching for optional LED55 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED55 footprint position: (128587500, 109775000)
-DEBUG: board_modifier.py:84: Searching for optional C55 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C55 footprint position: (128587500, 112775000)
-INFO: key_placer.py:979: Placing additional elements for MX54
-DEBUG: board_modifier.py:132: Getting MX54 footprint position: (109537500, 104775000)
-DEBUG: board_modifier.py:84: Searching for optional LED54 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED54 footprint position: (109537500, 109775000)
-DEBUG: board_modifier.py:84: Searching for optional C54 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C54 footprint position: (109537500, 112775000)
-INFO: key_placer.py:979: Placing additional elements for MX53
-DEBUG: board_modifier.py:132: Getting MX53 footprint position: (90487500, 104775000)
-DEBUG: board_modifier.py:84: Searching for optional LED53 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED53 footprint position: (90487500, 109775000)
-DEBUG: board_modifier.py:84: Searching for optional C53 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C53 footprint position: (90487500, 112775000)
-INFO: key_placer.py:979: Placing additional elements for MX52
-DEBUG: board_modifier.py:132: Getting MX52 footprint position: (71437500, 104775000)
-DEBUG: board_modifier.py:84: Searching for optional LED52 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED52 footprint position: (71437500, 109775000)
-DEBUG: board_modifier.py:84: Searching for optional C52 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C52 footprint position: (71437500, 112775000)
-INFO: key_placer.py:979: Placing additional elements for MX51
-DEBUG: board_modifier.py:132: Getting MX51 footprint position: (45243750, 104775000)
-DEBUG: board_modifier.py:84: Searching for optional LED51 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED51 footprint position: (45243750, 109775000)
-DEBUG: board_modifier.py:84: Searching for optional C51 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C51 footprint position: (45243750, 112775000)
-INFO: key_placer.py:979: Placing additional elements for MX50
-DEBUG: board_modifier.py:132: Getting MX50 footprint position: (385762500, 85725000)
-DEBUG: board_modifier.py:84: Searching for optional LED50 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED50 footprint position: (385762500, 90725000)
-DEBUG: board_modifier.py:84: Searching for optional C50 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C50 footprint position: (385762500, 93725000)
-INFO: key_placer.py:979: Placing additional elements for MX49
-DEBUG: board_modifier.py:132: Getting MX49 footprint position: (366712500, 85725000)
-DEBUG: board_modifier.py:84: Searching for optional LED49 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED49 footprint position: (366712500, 90725000)
-DEBUG: board_modifier.py:84: Searching for optional C49 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C49 footprint position: (366712500, 93725000)
-INFO: key_placer.py:979: Placing additional elements for MX48
-DEBUG: board_modifier.py:132: Getting MX48 footprint position: (347662500, 85725000)
-DEBUG: board_modifier.py:84: Searching for optional LED48 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED48 footprint position: (347662500, 90725000)
-DEBUG: board_modifier.py:84: Searching for optional C48 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C48 footprint position: (347662500, 93725000)
-INFO: key_placer.py:979: Placing additional elements for MX47
-DEBUG: board_modifier.py:132: Getting MX47 footprint position: (300037500, 85725000)
-DEBUG: board_modifier.py:84: Searching for optional LED47 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED47 footprint position: (300037500, 90725000)
-DEBUG: board_modifier.py:84: Searching for optional C47 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C47 footprint position: (300037500, 93725000)
-INFO: key_placer.py:979: Placing additional elements for MX46
-DEBUG: board_modifier.py:132: Getting MX46 footprint position: (276225000, 85725000)
-DEBUG: board_modifier.py:84: Searching for optional LED46 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED46 footprint position: (276225000, 90725000)
-DEBUG: board_modifier.py:84: Searching for optional C46 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C46 footprint position: (276225000, 93725000)
-INFO: key_placer.py:979: Placing additional elements for MX45
-DEBUG: board_modifier.py:132: Getting MX45 footprint position: (257175000, 85725000)
-DEBUG: board_modifier.py:84: Searching for optional LED45 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED45 footprint position: (257175000, 90725000)
-DEBUG: board_modifier.py:84: Searching for optional C45 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C45 footprint position: (257175000, 93725000)
-INFO: key_placer.py:979: Placing additional elements for MX44
-DEBUG: board_modifier.py:132: Getting MX44 footprint position: (238125000, 85725000)
-DEBUG: board_modifier.py:84: Searching for optional LED44 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED44 footprint position: (238125000, 90725000)
-DEBUG: board_modifier.py:84: Searching for optional C44 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C44 footprint position: (238125000, 93725000)
-INFO: key_placer.py:979: Placing additional elements for MX43
-DEBUG: board_modifier.py:132: Getting MX43 footprint position: (219075000, 85725000)
-DEBUG: board_modifier.py:84: Searching for optional LED43 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED43 footprint position: (219075000, 90725000)
-DEBUG: board_modifier.py:84: Searching for optional C43 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C43 footprint position: (219075000, 93725000)
 INFO: key_placer.py:979: Placing additional elements for MX42
 DEBUG: board_modifier.py:132: Getting MX42 footprint position: (200025000, 85725000)
-DEBUG: board_modifier.py:84: Searching for optional LED42 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:84: Searching for optional LED42 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
 DEBUG: board_modifier.py:119: Setting LED42 footprint position: (200025000, 90725000)
-DEBUG: board_modifier.py:84: Searching for optional C42 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:84: Searching for optional C42 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
 DEBUG: board_modifier.py:119: Setting C42 footprint position: (200025000, 93725000)
-INFO: key_placer.py:979: Placing additional elements for MX41
-DEBUG: board_modifier.py:132: Getting MX41 footprint position: (180975000, 85725000)
-DEBUG: board_modifier.py:84: Searching for optional LED41 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED41 footprint position: (180975000, 90725000)
-DEBUG: board_modifier.py:84: Searching for optional C41 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C41 footprint position: (180975000, 93725000)
-INFO: key_placer.py:979: Placing additional elements for MX40
-DEBUG: board_modifier.py:132: Getting MX40 footprint position: (161925000, 85725000)
-DEBUG: board_modifier.py:84: Searching for optional LED40 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED40 footprint position: (161925000, 90725000)
-DEBUG: board_modifier.py:84: Searching for optional C40 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C40 footprint position: (161925000, 93725000)
-INFO: key_placer.py:979: Placing additional elements for MX39
-DEBUG: board_modifier.py:132: Getting MX39 footprint position: (142875000, 85725000)
-DEBUG: board_modifier.py:84: Searching for optional LED39 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED39 footprint position: (142875000, 90725000)
-DEBUG: board_modifier.py:84: Searching for optional C39 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C39 footprint position: (142875000, 93725000)
-INFO: key_placer.py:979: Placing additional elements for MX38
-DEBUG: board_modifier.py:132: Getting MX38 footprint position: (123825000, 85725000)
-DEBUG: board_modifier.py:84: Searching for optional LED38 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED38 footprint position: (123825000, 90725000)
-DEBUG: board_modifier.py:84: Searching for optional C38 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C38 footprint position: (123825000, 93725000)
-INFO: key_placer.py:979: Placing additional elements for MX37
-DEBUG: board_modifier.py:132: Getting MX37 footprint position: (104775000, 85725000)
-DEBUG: board_modifier.py:84: Searching for optional LED37 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED37 footprint position: (104775000, 90725000)
-DEBUG: board_modifier.py:84: Searching for optional C37 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C37 footprint position: (104775000, 93725000)
-INFO: key_placer.py:979: Placing additional elements for MX36
-DEBUG: board_modifier.py:132: Getting MX36 footprint position: (85725000, 85725000)
-DEBUG: board_modifier.py:84: Searching for optional LED36 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED36 footprint position: (85725000, 90725000)
-DEBUG: board_modifier.py:84: Searching for optional C36 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C36 footprint position: (85725000, 93725000)
-INFO: key_placer.py:979: Placing additional elements for MX35
-DEBUG: board_modifier.py:132: Getting MX35 footprint position: (66675000, 85725000)
-DEBUG: board_modifier.py:84: Searching for optional LED35 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED35 footprint position: (66675000, 90725000)
-DEBUG: board_modifier.py:84: Searching for optional C35 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C35 footprint position: (66675000, 93725000)
-INFO: key_placer.py:979: Placing additional elements for MX34
-DEBUG: board_modifier.py:132: Getting MX34 footprint position: (42862500, 85725000)
-DEBUG: board_modifier.py:84: Searching for optional LED34 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED34 footprint position: (42862500, 90725000)
-DEBUG: board_modifier.py:84: Searching for optional C34 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C34 footprint position: (42862500, 93725000)
-INFO: key_placer.py:979: Placing additional elements for MX33
-DEBUG: board_modifier.py:132: Getting MX33 footprint position: (385762500, 66675000)
-DEBUG: board_modifier.py:84: Searching for optional LED33 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED33 footprint position: (385762500, 71675000)
-DEBUG: board_modifier.py:84: Searching for optional C33 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C33 footprint position: (385762500, 74675000)
-INFO: key_placer.py:979: Placing additional elements for MX32
-DEBUG: board_modifier.py:132: Getting MX32 footprint position: (366712500, 66675000)
-DEBUG: board_modifier.py:84: Searching for optional LED32 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED32 footprint position: (366712500, 71675000)
-DEBUG: board_modifier.py:84: Searching for optional C32 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C32 footprint position: (366712500, 74675000)
-INFO: key_placer.py:979: Placing additional elements for MX31
-DEBUG: board_modifier.py:132: Getting MX31 footprint position: (347662500, 66675000)
-DEBUG: board_modifier.py:84: Searching for optional LED31 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED31 footprint position: (347662500, 71675000)
-DEBUG: board_modifier.py:84: Searching for optional C31 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C31 footprint position: (347662500, 74675000)
-INFO: key_placer.py:979: Placing additional elements for MX30
-DEBUG: board_modifier.py:132: Getting MX30 footprint position: (295275000, 66675000)
-DEBUG: board_modifier.py:84: Searching for optional LED30 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED30 footprint position: (295275000, 71675000)
-DEBUG: board_modifier.py:84: Searching for optional C30 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C30 footprint position: (295275000, 74675000)
-INFO: key_placer.py:979: Placing additional elements for MX29
-DEBUG: board_modifier.py:132: Getting MX29 footprint position: (266700000, 66675000)
-DEBUG: board_modifier.py:84: Searching for optional LED29 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED29 footprint position: (266700000, 71675000)
-DEBUG: board_modifier.py:84: Searching for optional C29 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C29 footprint position: (266700000, 74675000)
-INFO: key_placer.py:979: Placing additional elements for MX28
-DEBUG: board_modifier.py:132: Getting MX28 footprint position: (247650000, 66675000)
-DEBUG: board_modifier.py:84: Searching for optional LED28 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED28 footprint position: (247650000, 71675000)
-DEBUG: board_modifier.py:84: Searching for optional C28 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C28 footprint position: (247650000, 74675000)
-INFO: key_placer.py:979: Placing additional elements for MX27
-DEBUG: board_modifier.py:132: Getting MX27 footprint position: (228600000, 66675000)
-DEBUG: board_modifier.py:84: Searching for optional LED27 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED27 footprint position: (228600000, 71675000)
-DEBUG: board_modifier.py:84: Searching for optional C27 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C27 footprint position: (228600000, 74675000)
-INFO: key_placer.py:979: Placing additional elements for MX26
-DEBUG: board_modifier.py:132: Getting MX26 footprint position: (209550000, 66675000)
-DEBUG: board_modifier.py:84: Searching for optional LED26 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED26 footprint position: (209550000, 71675000)
-DEBUG: board_modifier.py:84: Searching for optional C26 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C26 footprint position: (209550000, 74675000)
-INFO: key_placer.py:979: Placing additional elements for MX25
-DEBUG: board_modifier.py:132: Getting MX25 footprint position: (190500000, 66675000)
-DEBUG: board_modifier.py:84: Searching for optional LED25 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED25 footprint position: (190500000, 71675000)
-DEBUG: board_modifier.py:84: Searching for optional C25 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C25 footprint position: (190500000, 74675000)
+INFO: key_placer.py:979: Placing additional elements for MX88
+DEBUG: board_modifier.py:132: Getting MX88 footprint position: (302418750, 142875000)
+DEBUG: board_modifier.py:84: Searching for optional LED88 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED88 footprint position: (302418750, 147875000)
+DEBUG: board_modifier.py:84: Searching for optional C88 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C88 footprint position: (302418750, 150875000)
+INFO: key_placer.py:979: Placing additional elements for MX12
+DEBUG: board_modifier.py:132: Getting MX12 footprint position: (285750000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional LED12 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED12 footprint position: (285750000, 43100000)
+DEBUG: board_modifier.py:84: Searching for optional C12 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C12 footprint position: (285750000, 46100000)
 INFO: key_placer.py:979: Placing additional elements for MX24
 DEBUG: board_modifier.py:132: Getting MX24 footprint position: (171450000, 66675000)
-DEBUG: board_modifier.py:84: Searching for optional LED24 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:84: Searching for optional LED24 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
 DEBUG: board_modifier.py:119: Setting LED24 footprint position: (171450000, 71675000)
-DEBUG: board_modifier.py:84: Searching for optional C24 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:84: Searching for optional C24 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
 DEBUG: board_modifier.py:119: Setting C24 footprint position: (171450000, 74675000)
-INFO: key_placer.py:979: Placing additional elements for MX23
-DEBUG: board_modifier.py:132: Getting MX23 footprint position: (152400000, 66675000)
-DEBUG: board_modifier.py:84: Searching for optional LED23 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED23 footprint position: (152400000, 71675000)
-DEBUG: board_modifier.py:84: Searching for optional C23 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C23 footprint position: (152400000, 74675000)
-INFO: key_placer.py:979: Placing additional elements for MX22
-DEBUG: board_modifier.py:132: Getting MX22 footprint position: (133350000, 66675000)
-DEBUG: board_modifier.py:84: Searching for optional LED22 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED22 footprint position: (133350000, 71675000)
-DEBUG: board_modifier.py:84: Searching for optional C22 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C22 footprint position: (133350000, 74675000)
-INFO: key_placer.py:979: Placing additional elements for MX21
-DEBUG: board_modifier.py:132: Getting MX21 footprint position: (114300000, 66675000)
-DEBUG: board_modifier.py:84: Searching for optional LED21 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED21 footprint position: (114300000, 71675000)
-DEBUG: board_modifier.py:84: Searching for optional C21 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C21 footprint position: (114300000, 74675000)
 INFO: key_placer.py:979: Placing additional elements for MX20
 DEBUG: board_modifier.py:132: Getting MX20 footprint position: (95250000, 66675000)
-DEBUG: board_modifier.py:84: Searching for optional LED20 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:84: Searching for optional LED20 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
 DEBUG: board_modifier.py:119: Setting LED20 footprint position: (95250000, 71675000)
-DEBUG: board_modifier.py:84: Searching for optional C20 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:84: Searching for optional C20 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
 DEBUG: board_modifier.py:119: Setting C20 footprint position: (95250000, 74675000)
-INFO: key_placer.py:979: Placing additional elements for MX19
-DEBUG: board_modifier.py:132: Getting MX19 footprint position: (76200000, 66675000)
-DEBUG: board_modifier.py:84: Searching for optional LED19 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED19 footprint position: (76200000, 71675000)
-DEBUG: board_modifier.py:84: Searching for optional C19 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C19 footprint position: (76200000, 74675000)
-INFO: key_placer.py:979: Placing additional elements for MX18
-DEBUG: board_modifier.py:132: Getting MX18 footprint position: (57150000, 66675000)
-DEBUG: board_modifier.py:84: Searching for optional LED18 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED18 footprint position: (57150000, 71675000)
-DEBUG: board_modifier.py:84: Searching for optional C18 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C18 footprint position: (57150000, 74675000)
+INFO: key_placer.py:979: Placing additional elements for MX53
+DEBUG: board_modifier.py:132: Getting MX53 footprint position: (90487500, 104775000)
+DEBUG: board_modifier.py:84: Searching for optional LED53 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED53 footprint position: (90487500, 109775000)
+DEBUG: board_modifier.py:84: Searching for optional C53 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C53 footprint position: (90487500, 112775000)
+INFO: key_placer.py:979: Placing additional elements for MX54
+DEBUG: board_modifier.py:132: Getting MX54 footprint position: (109537500, 104775000)
+DEBUG: board_modifier.py:84: Searching for optional LED54 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED54 footprint position: (109537500, 109775000)
+DEBUG: board_modifier.py:84: Searching for optional C54 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C54 footprint position: (109537500, 112775000)
+INFO: key_placer.py:979: Placing additional elements for MX41
+DEBUG: board_modifier.py:132: Getting MX41 footprint position: (180975000, 85725000)
+DEBUG: board_modifier.py:84: Searching for optional LED41 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED41 footprint position: (180975000, 90725000)
+DEBUG: board_modifier.py:84: Searching for optional C41 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C41 footprint position: (180975000, 93725000)
+INFO: key_placer.py:979: Placing additional elements for MX25
+DEBUG: board_modifier.py:132: Getting MX25 footprint position: (190500000, 66675000)
+DEBUG: board_modifier.py:84: Searching for optional LED25 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED25 footprint position: (190500000, 71675000)
+DEBUG: board_modifier.py:84: Searching for optional C25 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C25 footprint position: (190500000, 74675000)
+INFO: key_placer.py:979: Placing additional elements for MX61
+DEBUG: board_modifier.py:132: Getting MX61 footprint position: (242887500, 104775000)
+DEBUG: board_modifier.py:84: Searching for optional LED61 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED61 footprint position: (242887500, 109775000)
+DEBUG: board_modifier.py:84: Searching for optional C61 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C61 footprint position: (242887500, 112775000)
+INFO: key_placer.py:979: Placing additional elements for MX29
+DEBUG: board_modifier.py:132: Getting MX29 footprint position: (266700000, 66675000)
+DEBUG: board_modifier.py:84: Searching for optional LED29 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED29 footprint position: (266700000, 71675000)
+DEBUG: board_modifier.py:84: Searching for optional C29 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C29 footprint position: (266700000, 74675000)
+INFO: key_placer.py:979: Placing additional elements for MX56
+DEBUG: board_modifier.py:132: Getting MX56 footprint position: (147637500, 104775000)
+DEBUG: board_modifier.py:84: Searching for optional LED56 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED56 footprint position: (147637500, 109775000)
+DEBUG: board_modifier.py:84: Searching for optional C56 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C56 footprint position: (147637500, 112775000)
+INFO: key_placer.py:979: Placing additional elements for MX30
+DEBUG: board_modifier.py:132: Getting MX30 footprint position: (295275000, 66675000)
+DEBUG: board_modifier.py:84: Searching for optional LED30 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED30 footprint position: (295275000, 71675000)
+DEBUG: board_modifier.py:84: Searching for optional C30 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C30 footprint position: (295275000, 74675000)
+INFO: key_placer.py:979: Placing additional elements for MX37
+DEBUG: board_modifier.py:132: Getting MX37 footprint position: (104775000, 85725000)
+DEBUG: board_modifier.py:84: Searching for optional LED37 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED37 footprint position: (104775000, 90725000)
+DEBUG: board_modifier.py:84: Searching for optional C37 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C37 footprint position: (104775000, 93725000)
+INFO: key_placer.py:979: Placing additional elements for MX78
+DEBUG: board_modifier.py:132: Getting MX78 footprint position: (347662500, 123825000)
+DEBUG: board_modifier.py:84: Searching for optional LED78 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED78 footprint position: (347662500, 128825000)
+DEBUG: board_modifier.py:84: Searching for optional C78 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C78 footprint position: (347662500, 131825000)
+INFO: key_placer.py:979: Placing additional elements for MX50
+DEBUG: board_modifier.py:132: Getting MX50 footprint position: (385762500, 85725000)
+DEBUG: board_modifier.py:84: Searching for optional LED50 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED50 footprint position: (385762500, 90725000)
+DEBUG: board_modifier.py:84: Searching for optional C50 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C50 footprint position: (385762500, 93725000)
+INFO: key_placer.py:979: Placing additional elements for MX62
+DEBUG: board_modifier.py:132: Getting MX62 footprint position: (261937500, 104775000)
+DEBUG: board_modifier.py:84: Searching for optional LED62 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED62 footprint position: (261937500, 109775000)
+DEBUG: board_modifier.py:84: Searching for optional C62 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C62 footprint position: (261937500, 112775000)
+INFO: key_placer.py:979: Placing additional elements for MX74
+DEBUG: board_modifier.py:132: Getting MX74 footprint position: (247650000, 123825000)
+DEBUG: board_modifier.py:84: Searching for optional LED74 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED74 footprint position: (247650000, 128825000)
+DEBUG: board_modifier.py:84: Searching for optional C74 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C74 footprint position: (247650000, 131825000)
+INFO: key_placer.py:979: Placing additional elements for MX40
+DEBUG: board_modifier.py:132: Getting MX40 footprint position: (161925000, 85725000)
+DEBUG: board_modifier.py:84: Searching for optional LED40 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED40 footprint position: (161925000, 90725000)
+DEBUG: board_modifier.py:84: Searching for optional C40 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C40 footprint position: (161925000, 93725000)
+INFO: key_placer.py:979: Placing additional elements for MX69
+DEBUG: board_modifier.py:132: Getting MX69 footprint position: (152400000, 123825000)
+DEBUG: board_modifier.py:84: Searching for optional LED69 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED69 footprint position: (152400000, 128825000)
+DEBUG: board_modifier.py:84: Searching for optional C69 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C69 footprint position: (152400000, 131825000)
+INFO: key_placer.py:979: Placing additional elements for MX49
+DEBUG: board_modifier.py:132: Getting MX49 footprint position: (366712500, 85725000)
+DEBUG: board_modifier.py:84: Searching for optional LED49 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED49 footprint position: (366712500, 90725000)
+DEBUG: board_modifier.py:84: Searching for optional C49 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C49 footprint position: (366712500, 93725000)
+INFO: key_placer.py:979: Placing additional elements for MX73
+DEBUG: board_modifier.py:132: Getting MX73 footprint position: (228600000, 123825000)
+DEBUG: board_modifier.py:84: Searching for optional LED73 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED73 footprint position: (228600000, 128825000)
+DEBUG: board_modifier.py:84: Searching for optional C73 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C73 footprint position: (228600000, 131825000)
+INFO: key_placer.py:979: Placing additional elements for MX39
+DEBUG: board_modifier.py:132: Getting MX39 footprint position: (142875000, 85725000)
+DEBUG: board_modifier.py:84: Searching for optional LED39 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED39 footprint position: (142875000, 90725000)
+DEBUG: board_modifier.py:84: Searching for optional C39 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C39 footprint position: (142875000, 93725000)
+INFO: key_placer.py:979: Placing additional elements for MX91
+DEBUG: board_modifier.py:132: Getting MX91 footprint position: (385762500, 142875000)
+DEBUG: board_modifier.py:84: Searching for optional LED91 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED91 footprint position: (385762500, 147875000)
+DEBUG: board_modifier.py:84: Searching for optional C91 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C91 footprint position: (385762500, 150875000)
+INFO: key_placer.py:979: Placing additional elements for MX63
+DEBUG: board_modifier.py:132: Getting MX63 footprint position: (292893750, 104775000)
+DEBUG: board_modifier.py:84: Searching for optional LED63 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED63 footprint position: (292893750, 109775000)
+DEBUG: board_modifier.py:84: Searching for optional C63 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C63 footprint position: (292893750, 112775000)
+INFO: key_placer.py:979: Placing additional elements for MX90
+DEBUG: board_modifier.py:132: Getting MX90 footprint position: (366712500, 142875000)
+DEBUG: board_modifier.py:84: Searching for optional LED90 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED90 footprint position: (366712500, 147875000)
+DEBUG: board_modifier.py:84: Searching for optional C90 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C90 footprint position: (366712500, 150875000)
+INFO: key_placer.py:979: Placing additional elements for MX2
+DEBUG: board_modifier.py:132: Getting MX2 footprint position: (76200000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional LED2 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED2 footprint position: (76200000, 43100000)
+DEBUG: board_modifier.py:84: Searching for optional C2 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C2 footprint position: (76200000, 46100000)
+INFO: key_placer.py:979: Placing additional elements for MX57
+DEBUG: board_modifier.py:132: Getting MX57 footprint position: (166687500, 104775000)
+DEBUG: board_modifier.py:84: Searching for optional LED57 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED57 footprint position: (166687500, 109775000)
+DEBUG: board_modifier.py:84: Searching for optional C57 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C57 footprint position: (166687500, 112775000)
+INFO: key_placer.py:979: Placing additional elements for MX15
+DEBUG: board_modifier.py:132: Getting MX15 footprint position: (366712500, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional LED15 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED15 footprint position: (366712500, 43100000)
+DEBUG: board_modifier.py:84: Searching for optional C15 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C15 footprint position: (366712500, 46100000)
+INFO: key_placer.py:979: Placing additional elements for MX4
+DEBUG: board_modifier.py:132: Getting MX4 footprint position: (114300000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional LED4 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED4 footprint position: (114300000, 43100000)
+DEBUG: board_modifier.py:84: Searching for optional C4 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C4 footprint position: (114300000, 46100000)
+INFO: key_placer.py:979: Placing additional elements for MX51
+DEBUG: board_modifier.py:132: Getting MX51 footprint position: (45243750, 104775000)
+DEBUG: board_modifier.py:84: Searching for optional LED51 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED51 footprint position: (45243750, 109775000)
+DEBUG: board_modifier.py:84: Searching for optional C51 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C51 footprint position: (45243750, 112775000)
 INFO: key_placer.py:979: Placing additional elements for MX17
 DEBUG: board_modifier.py:132: Getting MX17 footprint position: (38100000, 66675000)
-DEBUG: board_modifier.py:84: Searching for optional LED17 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:84: Searching for optional LED17 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
 DEBUG: board_modifier.py:119: Setting LED17 footprint position: (38100000, 71675000)
-DEBUG: board_modifier.py:84: Searching for optional C17 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:84: Searching for optional C17 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
 DEBUG: board_modifier.py:119: Setting C17 footprint position: (38100000, 74675000)
 INFO: key_placer.py:979: Placing additional elements for MX16
 DEBUG: board_modifier.py:132: Getting MX16 footprint position: (385762500, 38100000)
-DEBUG: board_modifier.py:84: Searching for optional LED16 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:84: Searching for optional LED16 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
 DEBUG: board_modifier.py:119: Setting LED16 footprint position: (385762500, 43100000)
-DEBUG: board_modifier.py:84: Searching for optional C16 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:84: Searching for optional C16 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
 DEBUG: board_modifier.py:119: Setting C16 footprint position: (385762500, 46100000)
-INFO: key_placer.py:979: Placing additional elements for MX15
-DEBUG: board_modifier.py:132: Getting MX15 footprint position: (366712500, 38100000)
-DEBUG: board_modifier.py:84: Searching for optional LED15 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED15 footprint position: (366712500, 43100000)
-DEBUG: board_modifier.py:84: Searching for optional C15 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C15 footprint position: (366712500, 46100000)
-INFO: key_placer.py:979: Placing additional elements for MX14
-DEBUG: board_modifier.py:132: Getting MX14 footprint position: (347662500, 38100000)
-DEBUG: board_modifier.py:84: Searching for optional LED14 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED14 footprint position: (347662500, 43100000)
-DEBUG: board_modifier.py:84: Searching for optional C14 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C14 footprint position: (347662500, 46100000)
-INFO: key_placer.py:979: Placing additional elements for MX13
-DEBUG: board_modifier.py:132: Getting MX13 footprint position: (304800000, 38100000)
-DEBUG: board_modifier.py:84: Searching for optional LED13 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED13 footprint position: (304800000, 43100000)
-DEBUG: board_modifier.py:84: Searching for optional C13 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C13 footprint position: (304800000, 46100000)
-INFO: key_placer.py:979: Placing additional elements for MX12
-DEBUG: board_modifier.py:132: Getting MX12 footprint position: (285750000, 38100000)
-DEBUG: board_modifier.py:84: Searching for optional LED12 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED12 footprint position: (285750000, 43100000)
-DEBUG: board_modifier.py:84: Searching for optional C12 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C12 footprint position: (285750000, 46100000)
+INFO: key_placer.py:979: Placing additional elements for MX31
+DEBUG: board_modifier.py:132: Getting MX31 footprint position: (347662500, 66675000)
+DEBUG: board_modifier.py:84: Searching for optional LED31 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED31 footprint position: (347662500, 71675000)
+DEBUG: board_modifier.py:84: Searching for optional C31 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C31 footprint position: (347662500, 74675000)
 INFO: key_placer.py:979: Placing additional elements for MX11
 DEBUG: board_modifier.py:132: Getting MX11 footprint position: (266700000, 38100000)
-DEBUG: board_modifier.py:84: Searching for optional LED11 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:84: Searching for optional LED11 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
 DEBUG: board_modifier.py:119: Setting LED11 footprint position: (266700000, 43100000)
-DEBUG: board_modifier.py:84: Searching for optional C11 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:84: Searching for optional C11 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
 DEBUG: board_modifier.py:119: Setting C11 footprint position: (266700000, 46100000)
-INFO: key_placer.py:979: Placing additional elements for MX10
-DEBUG: board_modifier.py:132: Getting MX10 footprint position: (247650000, 38100000)
-DEBUG: board_modifier.py:84: Searching for optional LED10 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED10 footprint position: (247650000, 43100000)
-DEBUG: board_modifier.py:84: Searching for optional C10 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C10 footprint position: (247650000, 46100000)
 INFO: key_placer.py:979: Placing additional elements for MX9
 DEBUG: board_modifier.py:132: Getting MX9 footprint position: (219075000, 38100000)
-DEBUG: board_modifier.py:84: Searching for optional LED9 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:84: Searching for optional LED9 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
 DEBUG: board_modifier.py:119: Setting LED9 footprint position: (219075000, 43100000)
-DEBUG: board_modifier.py:84: Searching for optional C9 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:84: Searching for optional C9 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
 DEBUG: board_modifier.py:119: Setting C9 footprint position: (219075000, 46100000)
-INFO: key_placer.py:979: Placing additional elements for MX8
-DEBUG: board_modifier.py:132: Getting MX8 footprint position: (200025000, 38100000)
-DEBUG: board_modifier.py:84: Searching for optional LED8 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED8 footprint position: (200025000, 43100000)
-DEBUG: board_modifier.py:84: Searching for optional C8 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C8 footprint position: (200025000, 46100000)
+INFO: key_placer.py:979: Placing additional elements for MX14
+DEBUG: board_modifier.py:132: Getting MX14 footprint position: (347662500, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional LED14 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED14 footprint position: (347662500, 43100000)
+DEBUG: board_modifier.py:84: Searching for optional C14 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C14 footprint position: (347662500, 46100000)
+INFO: key_placer.py:979: Placing additional elements for MX71
+DEBUG: board_modifier.py:132: Getting MX71 footprint position: (190500000, 123825000)
+DEBUG: board_modifier.py:84: Searching for optional LED71 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED71 footprint position: (190500000, 128825000)
+DEBUG: board_modifier.py:84: Searching for optional C71 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C71 footprint position: (190500000, 131825000)
+INFO: key_placer.py:979: Placing additional elements for MX22
+DEBUG: board_modifier.py:132: Getting MX22 footprint position: (133350000, 66675000)
+DEBUG: board_modifier.py:84: Searching for optional LED22 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED22 footprint position: (133350000, 71675000)
+DEBUG: board_modifier.py:84: Searching for optional C22 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C22 footprint position: (133350000, 74675000)
 INFO: key_placer.py:979: Placing additional elements for MX7
 DEBUG: board_modifier.py:132: Getting MX7 footprint position: (180975000, 38100000)
-DEBUG: board_modifier.py:84: Searching for optional LED7 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:84: Searching for optional LED7 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
 DEBUG: board_modifier.py:119: Setting LED7 footprint position: (180975000, 43100000)
-DEBUG: board_modifier.py:84: Searching for optional C7 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:84: Searching for optional C7 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
 DEBUG: board_modifier.py:119: Setting C7 footprint position: (180975000, 46100000)
-INFO: key_placer.py:979: Placing additional elements for MX6
-DEBUG: board_modifier.py:132: Getting MX6 footprint position: (161925000, 38100000)
-DEBUG: board_modifier.py:84: Searching for optional LED6 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED6 footprint position: (161925000, 43100000)
-DEBUG: board_modifier.py:84: Searching for optional C6 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C6 footprint position: (161925000, 46100000)
-INFO: key_placer.py:979: Placing additional elements for MX5
-DEBUG: board_modifier.py:132: Getting MX5 footprint position: (133350000, 38100000)
-DEBUG: board_modifier.py:84: Searching for optional LED5 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED5 footprint position: (133350000, 43100000)
-DEBUG: board_modifier.py:84: Searching for optional C5 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C5 footprint position: (133350000, 46100000)
-INFO: key_placer.py:979: Placing additional elements for MX4
-DEBUG: board_modifier.py:132: Getting MX4 footprint position: (114300000, 38100000)
-DEBUG: board_modifier.py:84: Searching for optional LED4 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED4 footprint position: (114300000, 43100000)
-DEBUG: board_modifier.py:84: Searching for optional C4 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C4 footprint position: (114300000, 46100000)
+INFO: key_placer.py:979: Placing additional elements for MX84
+DEBUG: board_modifier.py:132: Getting MX84 footprint position: (159543750, 142875000)
+DEBUG: board_modifier.py:84: Searching for optional LED84 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED84 footprint position: (159543750, 147875000)
+DEBUG: board_modifier.py:84: Searching for optional C84 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C84 footprint position: (159543750, 150875000)
+INFO: key_placer.py:979: Placing additional elements for MX81
+DEBUG: board_modifier.py:132: Getting MX81 footprint position: (40481250, 142875000)
+DEBUG: board_modifier.py:84: Searching for optional LED81 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED81 footprint position: (40481250, 147875000)
+DEBUG: board_modifier.py:84: Searching for optional C81 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C81 footprint position: (40481250, 150875000)
+INFO: key_placer.py:979: Placing additional elements for MX35
+DEBUG: board_modifier.py:132: Getting MX35 footprint position: (66675000, 85725000)
+DEBUG: board_modifier.py:84: Searching for optional LED35 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED35 footprint position: (66675000, 90725000)
+DEBUG: board_modifier.py:84: Searching for optional C35 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C35 footprint position: (66675000, 93725000)
+INFO: key_placer.py:979: Placing additional elements for MX65
+DEBUG: board_modifier.py:132: Getting MX65 footprint position: (76200000, 123825000)
+DEBUG: board_modifier.py:84: Searching for optional LED65 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED65 footprint position: (76200000, 128825000)
+DEBUG: board_modifier.py:84: Searching for optional C65 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C65 footprint position: (76200000, 131825000)
+INFO: key_placer.py:979: Placing additional elements for MX8
+DEBUG: board_modifier.py:132: Getting MX8 footprint position: (200025000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional LED8 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED8 footprint position: (200025000, 43100000)
+DEBUG: board_modifier.py:84: Searching for optional C8 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C8 footprint position: (200025000, 46100000)
+INFO: key_placer.py:979: Placing additional elements for MX55
+DEBUG: board_modifier.py:132: Getting MX55 footprint position: (128587500, 104775000)
+DEBUG: board_modifier.py:84: Searching for optional LED55 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED55 footprint position: (128587500, 109775000)
+DEBUG: board_modifier.py:84: Searching for optional C55 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C55 footprint position: (128587500, 112775000)
+INFO: key_placer.py:979: Placing additional elements for MX89
+DEBUG: board_modifier.py:132: Getting MX89 footprint position: (347662500, 142875000)
+DEBUG: board_modifier.py:84: Searching for optional LED89 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED89 footprint position: (347662500, 147875000)
+DEBUG: board_modifier.py:84: Searching for optional C89 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C89 footprint position: (347662500, 150875000)
+INFO: key_placer.py:979: Placing additional elements for MX75
+DEBUG: board_modifier.py:132: Getting MX75 footprint position: (266700000, 123825000)
+DEBUG: board_modifier.py:84: Searching for optional LED75 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED75 footprint position: (266700000, 128825000)
+DEBUG: board_modifier.py:84: Searching for optional C75 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C75 footprint position: (266700000, 131825000)
+INFO: key_placer.py:979: Placing additional elements for MX36
+DEBUG: board_modifier.py:132: Getting MX36 footprint position: (85725000, 85725000)
+DEBUG: board_modifier.py:84: Searching for optional LED36 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED36 footprint position: (85725000, 90725000)
+DEBUG: board_modifier.py:84: Searching for optional C36 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C36 footprint position: (85725000, 93725000)
+INFO: key_placer.py:979: Placing additional elements for MX47
+DEBUG: board_modifier.py:132: Getting MX47 footprint position: (300037500, 85725000)
+DEBUG: board_modifier.py:84: Searching for optional LED47 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED47 footprint position: (300037500, 90725000)
+DEBUG: board_modifier.py:84: Searching for optional C47 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C47 footprint position: (300037500, 93725000)
+INFO: key_placer.py:979: Placing additional elements for MX21
+DEBUG: board_modifier.py:132: Getting MX21 footprint position: (114300000, 66675000)
+DEBUG: board_modifier.py:84: Searching for optional LED21 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED21 footprint position: (114300000, 71675000)
+DEBUG: board_modifier.py:84: Searching for optional C21 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C21 footprint position: (114300000, 74675000)
+INFO: key_placer.py:979: Placing additional elements for MX52
+DEBUG: board_modifier.py:132: Getting MX52 footprint position: (71437500, 104775000)
+DEBUG: board_modifier.py:84: Searching for optional LED52 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED52 footprint position: (71437500, 109775000)
+DEBUG: board_modifier.py:84: Searching for optional C52 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C52 footprint position: (71437500, 112775000)
+INFO: key_placer.py:979: Placing additional elements for MX32
+DEBUG: board_modifier.py:132: Getting MX32 footprint position: (366712500, 66675000)
+DEBUG: board_modifier.py:84: Searching for optional LED32 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED32 footprint position: (366712500, 71675000)
+DEBUG: board_modifier.py:84: Searching for optional C32 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C32 footprint position: (366712500, 74675000)
 INFO: key_placer.py:979: Placing additional elements for MX3
 DEBUG: board_modifier.py:132: Getting MX3 footprint position: (95250000, 38100000)
-DEBUG: board_modifier.py:84: Searching for optional LED3 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:84: Searching for optional LED3 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
 DEBUG: board_modifier.py:119: Setting LED3 footprint position: (95250000, 43100000)
-DEBUG: board_modifier.py:84: Searching for optional C3 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:84: Searching for optional C3 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
 DEBUG: board_modifier.py:119: Setting C3 footprint position: (95250000, 46100000)
-INFO: key_placer.py:979: Placing additional elements for MX2
-DEBUG: board_modifier.py:132: Getting MX2 footprint position: (76200000, 38100000)
-DEBUG: board_modifier.py:84: Searching for optional LED2 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED2 footprint position: (76200000, 43100000)
-DEBUG: board_modifier.py:84: Searching for optional C2 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C2 footprint position: (76200000, 46100000)
-INFO: key_placer.py:979: Placing additional elements for MX1
-DEBUG: board_modifier.py:132: Getting MX1 footprint position: (38100000, 38100000)
-DEBUG: board_modifier.py:84: Searching for optional LED1 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting LED1 footprint position: (38100000, 43100000)
-DEBUG: board_modifier.py:84: Searching for optional C1 footprint in /home/kozachok/yaroslav/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
-DEBUG: board_modifier.py:119: Setting C1 footprint position: (38100000, 46100000)
+INFO: key_placer.py:979: Placing additional elements for MX23
+DEBUG: board_modifier.py:132: Getting MX23 footprint position: (152400000, 66675000)
+DEBUG: board_modifier.py:84: Searching for optional LED23 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED23 footprint position: (152400000, 71675000)
+DEBUG: board_modifier.py:84: Searching for optional C23 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C23 footprint position: (152400000, 74675000)
+INFO: key_placer.py:979: Placing additional elements for MX72
+DEBUG: board_modifier.py:132: Getting MX72 footprint position: (209550000, 123825000)
+DEBUG: board_modifier.py:84: Searching for optional LED72 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED72 footprint position: (209550000, 128825000)
+DEBUG: board_modifier.py:84: Searching for optional C72 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C72 footprint position: (209550000, 131825000)
+INFO: key_placer.py:979: Placing additional elements for MX19
+DEBUG: board_modifier.py:132: Getting MX19 footprint position: (76200000, 66675000)
+DEBUG: board_modifier.py:84: Searching for optional LED19 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED19 footprint position: (76200000, 71675000)
+DEBUG: board_modifier.py:84: Searching for optional C19 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C19 footprint position: (76200000, 74675000)
+INFO: key_placer.py:979: Placing additional elements for MX70
+DEBUG: board_modifier.py:132: Getting MX70 footprint position: (171450000, 123825000)
+DEBUG: board_modifier.py:84: Searching for optional LED70 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED70 footprint position: (171450000, 128825000)
+DEBUG: board_modifier.py:84: Searching for optional C70 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C70 footprint position: (171450000, 131825000)
+INFO: key_placer.py:979: Placing additional elements for MX48
+DEBUG: board_modifier.py:132: Getting MX48 footprint position: (347662500, 85725000)
+DEBUG: board_modifier.py:84: Searching for optional LED48 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED48 footprint position: (347662500, 90725000)
+DEBUG: board_modifier.py:84: Searching for optional C48 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C48 footprint position: (347662500, 93725000)
+INFO: key_placer.py:979: Placing additional elements for MX34
+DEBUG: board_modifier.py:132: Getting MX34 footprint position: (42862500, 85725000)
+DEBUG: board_modifier.py:84: Searching for optional LED34 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED34 footprint position: (42862500, 90725000)
+DEBUG: board_modifier.py:84: Searching for optional C34 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C34 footprint position: (42862500, 93725000)
+INFO: key_placer.py:979: Placing additional elements for MX87
+DEBUG: board_modifier.py:132: Getting MX87 footprint position: (278606250, 142875000)
+DEBUG: board_modifier.py:84: Searching for optional LED87 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED87 footprint position: (278606250, 147875000)
+DEBUG: board_modifier.py:84: Searching for optional C87 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C87 footprint position: (278606250, 150875000)
+INFO: key_placer.py:979: Placing additional elements for MX86
+DEBUG: board_modifier.py:132: Getting MX86 footprint position: (254793750, 142875000)
+DEBUG: board_modifier.py:84: Searching for optional LED86 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED86 footprint position: (254793750, 147875000)
+DEBUG: board_modifier.py:84: Searching for optional C86 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C86 footprint position: (254793750, 150875000)
+INFO: key_placer.py:979: Placing additional elements for MX10
+DEBUG: board_modifier.py:132: Getting MX10 footprint position: (247650000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional LED10 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED10 footprint position: (247650000, 43100000)
+DEBUG: board_modifier.py:84: Searching for optional C10 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C10 footprint position: (247650000, 46100000)
+INFO: key_placer.py:979: Placing additional elements for MX58
+DEBUG: board_modifier.py:132: Getting MX58 footprint position: (185737500, 104775000)
+DEBUG: board_modifier.py:84: Searching for optional LED58 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED58 footprint position: (185737500, 109775000)
+DEBUG: board_modifier.py:84: Searching for optional C58 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C58 footprint position: (185737500, 112775000)
+INFO: key_placer.py:979: Placing additional elements for MX64
+DEBUG: board_modifier.py:132: Getting MX64 footprint position: (47625000, 123825000)
+DEBUG: board_modifier.py:84: Searching for optional LED64 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting LED64 footprint position: (47625000, 128825000)
+DEBUG: board_modifier.py:84: Searching for optional C64 footprint in /home/kozachok/projects/keeb-keyboard/keyboard-full/keyboard-full.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C64 footprint position: (47625000, 131825000)
+INFO: key_placer.py:512: Routing MX45 with D45
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX45:2' at (254635000, 80645000) with pad 'D45:2' at (265475000, 80205000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(254635000, 80645000), (265035000, 80645000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(265035000, 80645000), (265475000, 80205000)]
+INFO: key_placer.py:512: Routing MX13 with D13
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX13:2' at (302260000, 33020000) with pad 'D13:2' at (313100000, 32580000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(302260000, 33020000), (312660000, 33020000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(312660000, 33020000), (313100000, 32580000)]
+INFO: key_placer.py:512: Routing MX27 with D27
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX27:2' at (226060000, 61595000) with pad 'D27:2' at (236900000, 61155000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(226060000, 61595000), (236460000, 61595000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(236460000, 61595000), (236900000, 61155000)]
+INFO: key_placer.py:512: Routing MX1 with D1
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX1:2' at (35560000, 33020000) with pad 'D1:2' at (46400000, 32580000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(35560000, 33020000), (45960000, 33020000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(45960000, 33020000), (46400000, 32580000)]
+INFO: key_placer.py:512: Routing MX46 with D46
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX46:2' at (273685000, 80645000) with pad 'D46:2' at (284525000, 80205000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(273685000, 80645000), (284085000, 80645000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(284085000, 80645000), (284525000, 80205000)]
+INFO: key_placer.py:512: Routing MX79 with D79
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX79:2' at (364172500, 118745000) with pad 'D79:2' at (375012500, 118305000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(364172500, 118745000), (374572500, 118745000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(374572500, 118745000), (375012500, 118305000)]
+INFO: key_placer.py:512: Routing MX83 with D83
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX83:2' at (85566250, 137795000) with pad 'D83:2' at (96406250, 137355000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(85566250, 137795000), (95966250, 137795000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(95966250, 137795000), (96406250, 137355000)]
+INFO: key_placer.py:512: Routing MX44 with D44
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX44:2' at (235585000, 80645000) with pad 'D44:2' at (246425000, 80205000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(235585000, 80645000), (245985000, 80645000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(245985000, 80645000), (246425000, 80205000)]
+INFO: key_placer.py:512: Routing MX67 with D67
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX67:2' at (111760000, 118745000) with pad 'D67:2' at (122600000, 118305000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(111760000, 118745000), (122160000, 118745000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(122160000, 118745000), (122600000, 118305000)]
+INFO: key_placer.py:512: Routing MX5 with D5
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX5:2' at (130810000, 33020000) with pad 'D5:2' at (141650000, 32580000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(130810000, 33020000), (141210000, 33020000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(141210000, 33020000), (141650000, 32580000)]
+INFO: key_placer.py:512: Routing MX82 with D82
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX82:2' at (61753750, 137795000) with pad 'D82:2' at (72593750, 137355000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(61753750, 137795000), (72153750, 137795000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(72153750, 137795000), (72593750, 137355000)]
+INFO: key_placer.py:512: Routing MX60 with D60
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX60:2' at (221297500, 99695000) with pad 'D60:2' at (232137500, 99255000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(221297500, 99695000), (231697500, 99695000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(231697500, 99695000), (232137500, 99255000)]
+INFO: key_placer.py:512: Routing MX80 with D80
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX80:2' at (383222500, 118745000) with pad 'D80:2' at (394062500, 118305000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(383222500, 118745000), (393622500, 118745000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(393622500, 118745000), (394062500, 118305000)]
+INFO: key_placer.py:512: Routing MX26 with D26
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX26:2' at (207010000, 61595000) with pad 'D26:2' at (217850000, 61155000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(207010000, 61595000), (217410000, 61595000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(217410000, 61595000), (217850000, 61155000)]
+INFO: key_placer.py:512: Routing MX43 with D43
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX43:2' at (216535000, 80645000) with pad 'D43:2' at (227375000, 80205000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(216535000, 80645000), (226935000, 80645000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(226935000, 80645000), (227375000, 80205000)]
+INFO: key_placer.py:512: Routing MX28 with D28
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX28:2' at (245110000, 61595000) with pad 'D28:2' at (255950000, 61155000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(245110000, 61595000), (255510000, 61595000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(255510000, 61595000), (255950000, 61155000)]
+INFO: key_placer.py:512: Routing MX38 with D38
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX38:2' at (121285000, 80645000) with pad 'D38:2' at (132125000, 80205000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(121285000, 80645000), (131685000, 80645000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(131685000, 80645000), (132125000, 80205000)]
+INFO: key_placer.py:512: Routing MX68 with D68
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX68:2' at (130810000, 118745000) with pad 'D68:2' at (141650000, 118305000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(130810000, 118745000), (141210000, 118745000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(141210000, 118745000), (141650000, 118305000)]
+INFO: key_placer.py:512: Routing MX18 with D18
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX18:2' at (54610000, 61595000) with pad 'D18:2' at (65450000, 61155000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(54610000, 61595000), (65010000, 61595000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(65010000, 61595000), (65450000, 61155000)]
+INFO: key_placer.py:512: Routing MX66 with D66
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX66:2' at (92710000, 118745000) with pad 'D66:2' at (103550000, 118305000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(92710000, 118745000), (103110000, 118745000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(103110000, 118745000), (103550000, 118305000)]
+INFO: key_placer.py:512: Routing MX6 with D6
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX6:2' at (159385000, 33020000) with pad 'D6:2' at (170225000, 32580000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(159385000, 33020000), (169785000, 33020000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(169785000, 33020000), (170225000, 32580000)]
+INFO: key_placer.py:512: Routing MX85 with D85
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX85:2' at (228441250, 137795000) with pad 'D85:2' at (239281250, 137355000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(228441250, 137795000), (238841250, 137795000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(238841250, 137795000), (239281250, 137355000)]
+INFO: key_placer.py:512: Routing MX33 with D33
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX33:2' at (383222500, 61595000) with pad 'D33:2' at (394062500, 61155000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(383222500, 61595000), (393622500, 61595000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(393622500, 61595000), (394062500, 61155000)]
+INFO: key_placer.py:512: Routing MX77 with D77
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX77:2' at (302260000, 118745000) with pad 'D77:2' at (313100000, 118305000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(302260000, 118745000), (312660000, 118745000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(312660000, 118745000), (313100000, 118305000)]
+INFO: key_placer.py:512: Routing MX76 with D76
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX76:2' at (283210000, 118745000) with pad 'D76:2' at (294050000, 118305000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(283210000, 118745000), (293610000, 118745000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(293610000, 118745000), (294050000, 118305000)]
+INFO: key_placer.py:512: Routing MX59 with D59
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX59:2' at (202247500, 99695000) with pad 'D59:2' at (213087500, 99255000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(202247500, 99695000), (212647500, 99695000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(212647500, 99695000), (213087500, 99255000)]
+INFO: key_placer.py:512: Routing MX42 with D42
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX42:2' at (197485000, 80645000) with pad 'D42:2' at (208325000, 80205000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(197485000, 80645000), (207885000, 80645000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(207885000, 80645000), (208325000, 80205000)]
+INFO: key_placer.py:512: Routing MX88 with D88
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX88:2' at (299878750, 137795000) with pad 'D88:2' at (310718750, 137355000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(299878750, 137795000), (310278750, 137795000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(310278750, 137795000), (310718750, 137355000)]
+INFO: key_placer.py:512: Routing MX12 with D12
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX12:2' at (283210000, 33020000) with pad 'D12:2' at (294050000, 32580000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(283210000, 33020000), (293610000, 33020000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(293610000, 33020000), (294050000, 32580000)]
+INFO: key_placer.py:512: Routing MX24 with D24
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX24:2' at (168910000, 61595000) with pad 'D24:2' at (179750000, 61155000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(168910000, 61595000), (179310000, 61595000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(179310000, 61595000), (179750000, 61155000)]
+INFO: key_placer.py:512: Routing MX20 with D20
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX20:2' at (92710000, 61595000) with pad 'D20:2' at (103550000, 61155000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(92710000, 61595000), (103110000, 61595000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(103110000, 61595000), (103550000, 61155000)]
+INFO: key_placer.py:512: Routing MX53 with D53
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX53:2' at (87947500, 99695000) with pad 'D53:2' at (98787500, 99255000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(87947500, 99695000), (98347500, 99695000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(98347500, 99695000), (98787500, 99255000)]
+INFO: key_placer.py:512: Routing MX54 with D54
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX54:2' at (106997500, 99695000) with pad 'D54:2' at (117837500, 99255000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(106997500, 99695000), (117397500, 99695000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(117397500, 99695000), (117837500, 99255000)]
+INFO: key_placer.py:512: Routing MX41 with D41
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX41:2' at (178435000, 80645000) with pad 'D41:2' at (189275000, 80205000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(178435000, 80645000), (188835000, 80645000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(188835000, 80645000), (189275000, 80205000)]
+INFO: key_placer.py:512: Routing MX25 with D25
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX25:2' at (187960000, 61595000) with pad 'D25:2' at (198800000, 61155000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(187960000, 61595000), (198360000, 61595000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(198360000, 61595000), (198800000, 61155000)]
+INFO: key_placer.py:512: Routing MX61 with D61
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX61:2' at (240347500, 99695000) with pad 'D61:2' at (251187500, 99255000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(240347500, 99695000), (250747500, 99695000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(250747500, 99695000), (251187500, 99255000)]
+INFO: key_placer.py:512: Routing MX29 with D29
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX29:2' at (264160000, 61595000) with pad 'D29:2' at (275000000, 61155000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(264160000, 61595000), (274560000, 61595000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(274560000, 61595000), (275000000, 61155000)]
+INFO: key_placer.py:512: Routing MX56 with D56
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX56:2' at (145097500, 99695000) with pad 'D56:2' at (155937500, 99255000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(145097500, 99695000), (155497500, 99695000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(155497500, 99695000), (155937500, 99255000)]
+INFO: key_placer.py:512: Routing MX30 with D30
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX30:2' at (292735000, 61595000) with pad 'D30:2' at (303575000, 61155000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(292735000, 61595000), (303135000, 61595000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(303135000, 61595000), (303575000, 61155000)]
+INFO: key_placer.py:512: Routing MX37 with D37
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX37:2' at (102235000, 80645000) with pad 'D37:2' at (113075000, 80205000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(102235000, 80645000), (112635000, 80645000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(112635000, 80645000), (113075000, 80205000)]
+INFO: key_placer.py:512: Routing MX78 with D78
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX78:2' at (345122500, 118745000) with pad 'D78:2' at (355962500, 118305000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(345122500, 118745000), (355522500, 118745000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(355522500, 118745000), (355962500, 118305000)]
+INFO: key_placer.py:512: Routing MX50 with D50
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX50:2' at (383222500, 80645000) with pad 'D50:2' at (394062500, 80205000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(383222500, 80645000), (393622500, 80645000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(393622500, 80645000), (394062500, 80205000)]
+INFO: key_placer.py:512: Routing MX62 with D62
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX62:2' at (259397500, 99695000) with pad 'D62:2' at (270237500, 99255000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(259397500, 99695000), (269797500, 99695000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(269797500, 99695000), (270237500, 99255000)]
+INFO: key_placer.py:512: Routing MX74 with D74
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX74:2' at (245110000, 118745000) with pad 'D74:2' at (255950000, 118305000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(245110000, 118745000), (255510000, 118745000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(255510000, 118745000), (255950000, 118305000)]
+INFO: key_placer.py:512: Routing MX40 with D40
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX40:2' at (159385000, 80645000) with pad 'D40:2' at (170225000, 80205000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(159385000, 80645000), (169785000, 80645000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(169785000, 80645000), (170225000, 80205000)]
+INFO: key_placer.py:512: Routing MX69 with D69
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX69:2' at (149860000, 118745000) with pad 'D69:2' at (160700000, 118305000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(149860000, 118745000), (160260000, 118745000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(160260000, 118745000), (160700000, 118305000)]
+INFO: key_placer.py:512: Routing MX49 with D49
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX49:2' at (364172500, 80645000) with pad 'D49:2' at (375012500, 80205000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(364172500, 80645000), (374572500, 80645000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(374572500, 80645000), (375012500, 80205000)]
+INFO: key_placer.py:512: Routing MX73 with D73
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX73:2' at (226060000, 118745000) with pad 'D73:2' at (236900000, 118305000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(226060000, 118745000), (236460000, 118745000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(236460000, 118745000), (236900000, 118305000)]
+INFO: key_placer.py:512: Routing MX39 with D39
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX39:2' at (140335000, 80645000) with pad 'D39:2' at (151175000, 80205000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(140335000, 80645000), (150735000, 80645000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(150735000, 80645000), (151175000, 80205000)]
+INFO: key_placer.py:512: Routing MX91 with D91
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX91:2' at (383222500, 137795000) with pad 'D91:2' at (394062500, 137355000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(383222500, 137795000), (393622500, 137795000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(393622500, 137795000), (394062500, 137355000)]
+INFO: key_placer.py:512: Routing MX63 with D63
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX63:2' at (290353750, 99695000) with pad 'D63:2' at (301193750, 99255000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(290353750, 99695000), (300753750, 99695000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(300753750, 99695000), (301193750, 99255000)]
+INFO: key_placer.py:512: Routing MX90 with D90
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX90:2' at (364172500, 137795000) with pad 'D90:2' at (375012500, 137355000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(364172500, 137795000), (374572500, 137795000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(374572500, 137795000), (375012500, 137355000)]
+INFO: key_placer.py:512: Routing MX2 with D2
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX2:2' at (73660000, 33020000) with pad 'D2:2' at (84500000, 32580000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(73660000, 33020000), (84060000, 33020000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(84060000, 33020000), (84500000, 32580000)]
+INFO: key_placer.py:512: Routing MX57 with D57
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX57:2' at (164147500, 99695000) with pad 'D57:2' at (174987500, 99255000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(164147500, 99695000), (174547500, 99695000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(174547500, 99695000), (174987500, 99255000)]
+INFO: key_placer.py:512: Routing MX15 with D15
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX15:2' at (364172500, 33020000) with pad 'D15:2' at (375012500, 32580000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(364172500, 33020000), (374572500, 33020000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(374572500, 33020000), (375012500, 32580000)]
+INFO: key_placer.py:512: Routing MX4 with D4
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX4:2' at (111760000, 33020000) with pad 'D4:2' at (122600000, 32580000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(111760000, 33020000), (122160000, 33020000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(122160000, 33020000), (122600000, 32580000)]
+INFO: key_placer.py:512: Routing MX51 with D51
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX51:2' at (42703750, 99695000) with pad 'D51:2' at (53543750, 99255000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(42703750, 99695000), (53103750, 99695000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(53103750, 99695000), (53543750, 99255000)]
+INFO: key_placer.py:512: Routing MX17 with D17
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX17:2' at (35560000, 61595000) with pad 'D17:2' at (46400000, 61155000) using coordinate system rotated by 0 degree(s)
+INFO: key_placer.py:512: Routing MX16 with D16
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX16:2' at (383222500, 33020000) with pad 'D16:2' at (394062500, 32580000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(383222500, 33020000), (393622500, 33020000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(393622500, 33020000), (394062500, 32580000)]
+INFO: key_placer.py:512: Routing MX31 with D31
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX31:2' at (345122500, 61595000) with pad 'D31:2' at (355962500, 61155000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(345122500, 61595000), (355522500, 61595000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(355522500, 61595000), (355962500, 61155000)]
+INFO: key_placer.py:512: Routing MX11 with D11
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX11:2' at (264160000, 33020000) with pad 'D11:2' at (275000000, 32580000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(264160000, 33020000), (274560000, 33020000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(274560000, 33020000), (275000000, 32580000)]
+INFO: key_placer.py:512: Routing MX9 with D9
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX9:2' at (216535000, 33020000) with pad 'D9:2' at (227375000, 32580000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(216535000, 33020000), (226935000, 33020000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(226935000, 33020000), (227375000, 32580000)]
+INFO: key_placer.py:512: Routing MX14 with D14
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX14:2' at (345122500, 33020000) with pad 'D14:2' at (355962500, 32580000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(345122500, 33020000), (355522500, 33020000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(355522500, 33020000), (355962500, 32580000)]
+INFO: key_placer.py:512: Routing MX71 with D71
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX71:2' at (187960000, 118745000) with pad 'D71:2' at (198800000, 118305000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(187960000, 118745000), (198360000, 118745000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(198360000, 118745000), (198800000, 118305000)]
+INFO: key_placer.py:512: Routing MX22 with D22
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX22:2' at (130810000, 61595000) with pad 'D22:2' at (141650000, 61155000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(130810000, 61595000), (141210000, 61595000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(141210000, 61595000), (141650000, 61155000)]
+INFO: key_placer.py:512: Routing MX7 with D7
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX7:2' at (178435000, 33020000) with pad 'D7:2' at (189275000, 32580000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(178435000, 33020000), (188835000, 33020000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(188835000, 33020000), (189275000, 32580000)]
+INFO: key_placer.py:512: Routing MX84 with D84
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX84:2' at (157003750, 137795000) with pad 'D84:2' at (167843750, 137355000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(157003750, 137795000), (167403750, 137795000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(167403750, 137795000), (167843750, 137355000)]
+INFO: key_placer.py:512: Routing MX81 with D81
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX81:2' at (37941250, 137795000) with pad 'D81:2' at (48781250, 137355000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(37941250, 137795000), (48341250, 137795000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(48341250, 137795000), (48781250, 137355000)]
+INFO: key_placer.py:512: Routing MX35 with D35
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX35:2' at (64135000, 80645000) with pad 'D35:2' at (74975000, 80205000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(64135000, 80645000), (74535000, 80645000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(74535000, 80645000), (74975000, 80205000)]
+INFO: key_placer.py:512: Routing MX65 with D65
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX65:2' at (73660000, 118745000) with pad 'D65:2' at (84500000, 118305000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(73660000, 118745000), (84060000, 118745000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(84060000, 118745000), (84500000, 118305000)]
+INFO: key_placer.py:512: Routing MX8 with D8
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX8:2' at (197485000, 33020000) with pad 'D8:2' at (208325000, 32580000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(197485000, 33020000), (207885000, 33020000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(207885000, 33020000), (208325000, 32580000)]
+INFO: key_placer.py:512: Routing MX55 with D55
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX55:2' at (126047500, 99695000) with pad 'D55:2' at (136887500, 99255000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(126047500, 99695000), (136447500, 99695000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(136447500, 99695000), (136887500, 99255000)]
+INFO: key_placer.py:512: Routing MX89 with D89
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX89:2' at (345122500, 137795000) with pad 'D89:2' at (355962500, 137355000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(345122500, 137795000), (355522500, 137795000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(355522500, 137795000), (355962500, 137355000)]
+INFO: key_placer.py:512: Routing MX75 with D75
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX75:2' at (264160000, 118745000) with pad 'D75:2' at (275000000, 118305000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(264160000, 118745000), (274560000, 118745000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(274560000, 118745000), (275000000, 118305000)]
+INFO: key_placer.py:512: Routing MX36 with D36
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX36:2' at (83185000, 80645000) with pad 'D36:2' at (94025000, 80205000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(83185000, 80645000), (93585000, 80645000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(93585000, 80645000), (94025000, 80205000)]
+INFO: key_placer.py:512: Routing MX47 with D47
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX47:2' at (297497500, 80645000) with pad 'D47:2' at (308337500, 80205000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(297497500, 80645000), (307897500, 80645000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(307897500, 80645000), (308337500, 80205000)]
+INFO: key_placer.py:512: Routing MX21 with D21
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX21:2' at (111760000, 61595000) with pad 'D21:2' at (122600000, 61155000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(111760000, 61595000), (122160000, 61595000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(122160000, 61595000), (122600000, 61155000)]
+INFO: key_placer.py:512: Routing MX52 with D52
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX52:2' at (68897500, 99695000) with pad 'D52:2' at (79737500, 99255000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(68897500, 99695000), (79297500, 99695000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(79297500, 99695000), (79737500, 99255000)]
+INFO: key_placer.py:512: Routing MX32 with D32
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX32:2' at (364172500, 61595000) with pad 'D32:2' at (375012500, 61155000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(364172500, 61595000), (374572500, 61595000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(374572500, 61595000), (375012500, 61155000)]
+INFO: key_placer.py:512: Routing MX3 with D3
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX3:2' at (92710000, 33020000) with pad 'D3:2' at (103550000, 32580000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(92710000, 33020000), (103110000, 33020000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(103110000, 33020000), (103550000, 32580000)]
+INFO: key_placer.py:512: Routing MX23 with D23
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX23:2' at (149860000, 61595000) with pad 'D23:2' at (160700000, 61155000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(149860000, 61595000), (160260000, 61595000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(160260000, 61595000), (160700000, 61155000)]
+INFO: key_placer.py:512: Routing MX72 with D72
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX72:2' at (207010000, 118745000) with pad 'D72:2' at (217850000, 118305000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(207010000, 118745000), (217410000, 118745000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(217410000, 118745000), (217850000, 118305000)]
+INFO: key_placer.py:512: Routing MX19 with D19
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX19:2' at (73660000, 61595000) with pad 'D19:2' at (84500000, 61155000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(73660000, 61595000), (84060000, 61595000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(84060000, 61595000), (84500000, 61155000)]
+INFO: key_placer.py:512: Routing MX70 with D70
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX70:2' at (168910000, 118745000) with pad 'D70:2' at (179750000, 118305000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(168910000, 118745000), (179310000, 118745000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(179310000, 118745000), (179750000, 118305000)]
+INFO: key_placer.py:512: Routing MX48 with D48
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX48:2' at (345122500, 80645000) with pad 'D48:2' at (355962500, 80205000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(345122500, 80645000), (355522500, 80645000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(355522500, 80645000), (355962500, 80205000)]
+INFO: key_placer.py:512: Routing MX34 with D34
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX34:2' at (40322500, 80645000) with pad 'D34:2' at (51162500, 80205000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(40322500, 80645000), (50722500, 80645000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(50722500, 80645000), (51162500, 80205000)]
+INFO: key_placer.py:512: Routing MX87 with D87
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX87:2' at (276066250, 137795000) with pad 'D87:2' at (286906250, 137355000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(276066250, 137795000), (286466250, 137795000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(286466250, 137795000), (286906250, 137355000)]
+INFO: key_placer.py:512: Routing MX86 with D86
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX86:2' at (252253750, 137795000) with pad 'D86:2' at (263093750, 137355000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(252253750, 137795000), (262653750, 137795000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(262653750, 137795000), (263093750, 137355000)]
+INFO: key_placer.py:512: Routing MX10 with D10
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX10:2' at (245110000, 33020000) with pad 'D10:2' at (255950000, 32580000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(245110000, 33020000), (255510000, 33020000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(255510000, 33020000), (255950000, 32580000)]
+INFO: key_placer.py:512: Routing MX58 with D58
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX58:2' at (183197500, 99695000) with pad 'D58:2' at (194037500, 99255000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(183197500, 99695000), (193597500, 99695000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(193597500, 99695000), (194037500, 99255000)]
+INFO: key_placer.py:512: Routing MX64 with D64
+INFO: key_placer.py:514: Using internal autorouter method
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'MX64:2' at (45085000, 118745000) with pad 'D64:2' at (55925000, 118305000) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(45085000, 118745000), (55485000, 118745000)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(55485000, 118745000), (55925000, 118305000)]
+INFO: key_placer.py:546: Removing dangling tracks

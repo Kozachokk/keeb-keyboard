@@ -39,3 +39,6 @@ Made some oopsies in the schema design, rechecked the datasheet for the SK6812 M
 2026-09-17
 Finished doing the schema, setup the capacitor, diode and rgb per key switch on the pcb design, also changed to hotswappable keys. Redid the capacitors and the rgbs so they would be annotated correctly and placed nicely with the keyboard placer plugin. Found a capacitor model to use.
 3h
+
+2026-09-18
+Started wiring the pcb, rewired it three times already, because at first the diode were wired on the wrong side, then realised that the connection between the diode and the hotswap pocket.Also redid the schema for the rgbs because i didn't want to wire the data line across the board, and instead just wire it to the next row, but rotated.
