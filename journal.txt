@@ -35,3 +35,7 @@ Learned about addressables rgb leds, which is way simpler to implement than a rg
 2026-09-17
 Made some oopsies in the schema design, rechecked the datasheet for the SK6812 MINI-E LEDs and the resistor goes on the data line and not power, also found out that the opheus pico has USB Type-C which can handle more than 0.5A and enough for all the LEDs.
 1h, previous two journal entries don't have hours attached, i'd estimate I had 10h for both of them combined.
+
+2026-09-17
+Finished doing the schema, setup the capacitor, diode and rgb per key switch on the pcb design, also changed to hotswappable keys. Redid the capacitors and the rgbs so they would be annotated correctly and placed nicely with the keyboard placer plugin. Found a capacitor model to use.
+3h
