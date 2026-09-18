@@ -42,3 +42,7 @@ Finished doing the schema, setup the capacitor, diode and rgb per key switch on 
 
 2026-09-18
 Started wiring the pcb, rewired it three times already, because at first the diode were wired on the wrong side, then realised that the connection between the diode and the hotswap pocket.Also redid the schema for the rgbs because i didn't want to wire the data line across the board, and instead just wire it to the next row, but rotated.
+
+2026-09-18
+Wired the capacitors, leds, switches and diodes, still missing wiring for the keyboard matrix and power lines for rgb leds
+3h
