@@ -55,3 +55,7 @@ Wired up the rest, needed to redo the power lines because there were too small, 
 2026-09-25
 Fixed the ground pour not taking up the whole space, added vias for connection between isolated islands of ground pour, ran drc, fix most errors, ignored footprint in courtyard because the led is supposed to be inside the courtyard and it won't bother the switch because it's on the backside. Fixed up silkscreen that was chopped or with something. And made edge cuts round on corners
 3h
+
+2026-09-25
+Redid the whole keyboard because the hotswap pockets were on the wrong side of the board :(
+4h :(

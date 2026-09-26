@@ -86,7 +86,7 @@
         "connection_width": "warning",
         "copper_edge_clearance": "ignore",
         "copper_sliver": "warning",
-        "courtyards_overlap": "ignore",
+        "courtyards_overlap": "error",
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
@@ -97,7 +97,7 @@
         "footprint_filters_mismatch": "ignore",
         "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "ignore",
+        "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_to_hole": "warning",
         "holes_co_located": "warning",
@@ -111,7 +111,7 @@
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
-        "missing_courtyard": "ignore",
+        "missing_courtyard": "warning",
         "missing_footprint": "warning",
         "missing_tuning_profile": "warning",
         "net_conflict": "warning",
@@ -211,7 +211,8 @@
       ],
       "track_widths": [
         0.0,
-        0.2
+        0.2,
+        0.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -555,7 +556,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "keyboard-full.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -690,7 +691,7 @@
         "uuid": "70eae98a-c9e1-4c31-8b66-fce01a8a9408"
       }
     ],
-    "used_designators": "A1,D1-193,C1-102,SW1-102,#PWR1-10,S1-4,LED1-102,R1-2",
+    "used_designators": "H1-4,A1,D1-193,C1-202,SW1-102,#PWR1-20,MX1-91,S1-4,LED1-202,R1-2",
     "variants": []
   },
   "sheets": [
