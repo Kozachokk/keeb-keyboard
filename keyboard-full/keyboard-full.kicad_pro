@@ -554,9 +554,9 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../../yaroslav/projects/keeb-keyboard/keyboard-full/gerb/",
       "specctra_dsn": "",
-      "step": "keyboard-full.step",
+      "step": "../keyboard-full.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

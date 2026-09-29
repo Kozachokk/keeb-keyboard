@@ -59,3 +59,6 @@ Fixed the ground pour not taking up the whole space, added vias for connection b
 2026-09-25
 Redid the whole keyboard because the hotswap pockets were on the wrong side of the board :(
 4h :(
+
+2026-09-29
+Did the case for the keyboard. Had to figure out how to do screw holes, how to extrude holes on keys that dont have the regular offset(1.25u, 1.5u, space bar), I just put a point in the center of the key and put dimensions to center the extruded hole on it.
